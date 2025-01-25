@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\BubblesFromTheDeep.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BubblesFromTheDeep.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\BubblesFromTheDeepEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\BubblesFromTheDeep">
+      <UniqueIdentifier>{85AA560C-A0AF-325D-8176-5E9F1A969E07}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BubblesFromTheDeep\BubblesFromTheDeep.Build.cs">
+      <Filter>Source\BubblesFromTheDeep</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\BubblesFromTheDeep\BubblesFromTheDeep.cpp">
+      <Filter>Source\BubblesFromTheDeep</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BubblesFromTheDeep\BubblesFromTheDeep.h">
+      <Filter>Source\BubblesFromTheDeep</Filter>
+    </ClInclude>
+    <Filter Include="Source\BubblesFromTheDeep\Private">
+      <UniqueIdentifier>{D3452DC1-731D-3FC1-A78C-7F5E071F1BC6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BubblesFromTheDeep\Private\GameBoard.cpp">
+      <Filter>Source\BubblesFromTheDeep\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\BubblesFromTheDeep\Public">
+      <UniqueIdentifier>{26EF633A-D4BE-3E9E-8125-985AF9CB2B4A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\BubblesFromTheDeep\Public\GameBoard.h">
+      <Filter>Source\BubblesFromTheDeep\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
