@@ -51,3 +51,31 @@ void UCoralCardSubsystem::PlayCard(UCoralCard* Card)
 }
 
 // -----------------------------------------------------------------------------
+
+void UCoralCardSubsystem::Initialize(FSubsystemCollectionBase& Collection)
+{
+	Super::Initialize(Collection);
+}
+
+// -----------------------------------------------------------------------------
+
+void UCoralCardSubsystem::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+}
+
+// -----------------------------------------------------------------------------
+
+void UCoralCardSubsystem::Deinitialize()
+{
+	Super::Deinitialize();
+}
+
+// -----------------------------------------------------------------------------
+
+TStatId UCoralCardSubsystem::GetStatId() const
+{
+	RETURN_QUICK_DECLARE_CYCLE_STAT(UCoralCardSubsystem, STATGROUP_Tickables);
+}
+
+// -----------------------------------------------------------------------------
