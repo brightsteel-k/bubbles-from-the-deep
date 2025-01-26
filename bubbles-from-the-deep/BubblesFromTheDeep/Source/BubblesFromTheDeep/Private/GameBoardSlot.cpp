@@ -23,6 +23,7 @@ void AGameBoardSlot::PlaceTurret(TSubclassOf<ACoralTurret> TurretClass)
 	// Socket turret
 	SocketedTurret = Cast<ACoralTurret>(NewTurret);
 	SocketedTurret->OnTurretPlaced(this);
+	OnTurretPlaced();
 }
 
 // -----------------------------------------------------------------------------
@@ -41,7 +42,7 @@ bool AGameBoardSlot::HasTurret()
 
 // -----------------------------------------------------------------------------
 
-void AGameBoardSlot::OnTurretCleared()
+void AGameBoardSlot::OnTurretCleared_Implementation()
 {
 	SocketedTurret = nullptr;
 }

@@ -44,8 +44,12 @@ public:
 	UFUNCTION(BlueprintCallable, BlueprintPure)
 	bool HasTurret();
 
-	UFUNCTION()
+	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+	void OnTurretPlaced();
+	
+	UFUNCTION(BlueprintNativeEvent)
 	void OnTurretCleared();
+	void OnTurretCleared_Implementation();
 
 	UFUNCTION(BlueprintNativeEvent)
 	void Initialize(AGameBoard* ParentBoard);
