@@ -51,6 +51,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float AttackCooldown;
 	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float AttackRange;
+	
 	// -----------------------------------------------------------------------------
 	// Public Methods
 	// -----------------------------------------------------------------------------

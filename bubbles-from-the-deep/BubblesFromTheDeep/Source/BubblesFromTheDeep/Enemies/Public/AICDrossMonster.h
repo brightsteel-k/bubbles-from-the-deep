@@ -24,8 +24,9 @@ enum EMonsterBehaviorPhase
 	Uninitialized = -1,
 	Rising = 0,
 	Advancing = 1,
-	Attacking = 2,
-	Stunned = 3
+	Aggroing = 2,
+	Attacking = 3,
+	Stunned = 4
 };
 
 // -----------------------------------------------------------------------------
