@@ -9,6 +9,7 @@
 void UDrownedGameSubsystem::CollectPopTab()
 {
 	PopTabCount++;
+	PoptabsCountChangedEvent.Broadcast(PopTabCount);
 }
 
 // -----------------------------------------------------------------------------
@@ -23,6 +24,7 @@ int UDrownedGameSubsystem::GetPopTabCount()
 void UDrownedGameSubsystem::SpendPopTabs(int Amount)
 {
 	PopTabCount = PopTabCount >= Amount ? PopTabCount - Amount : 0;
+	PoptabsCountChangedEvent.Broadcast(PopTabCount);
 }
 
 // -----------------------------------------------------------------------------

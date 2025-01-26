@@ -14,6 +14,8 @@
 // -----------------------------------------------------------------------------
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FCoralCardSubsystemDrawEvent, UCoralCard*, Card);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FCoralCardDeckSizeChange, int, NewDeckSize);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FCoralCardPlayedEvent, UCoralCard*, Card);
 
 // -----------------------------------------------------------------------------
 // Class Definition
@@ -40,6 +42,12 @@ public:
 
 	UPROPERTY(BlueprintAssignable, BlueprintReadWrite, BlueprintCallable)
 	FCoralCardSubsystemDrawEvent DrawCardEvent;
+
+	UPROPERTY(BlueprintAssignable, BlueprintReadWrite, BlueprintCallable)
+	FCoralCardDeckSizeChange DeckSizeChangeEvent;
+
+	UPROPERTY(BlueprintAssignable, BlueprintReadWrite, BlueprintCallable)
+	FCoralCardPlayedEvent CardPlayedEvent;
 	
 	// -----------------------------------------------------------------------------
 	// Public Methods
@@ -59,10 +67,22 @@ public:
 	void DrawCard();
 
 	UFUNCTION(BlueprintCallable, BlueprintPure)
-	bool CanPlayCard(UCoralCard* Card);
+	bool CanPlaySelectedCard();
 
 	UFUNCTION(BlueprintCallable)
-	void PlayCard(UCoralCard* Card);
+	UCoralCard* PlaySelectedCard();
+
+	UFUNCTION(BlueprintCallable, BlueprintPure)
+	UCoralCard* GetSelectedCard();
+
+	UFUNCTION(BlueprintCallable, BlueprintPure)
+	bool HasSelectedCard();
+
+	UFUNCTION(BlueprintCallable)
+	void SetSelectedCard(UCoralCard* Card);
+
+	UFUNCTION(BlueprintCallable)
+	void ClearSelectedCard();
 
 protected:
 	// -----------------------------------------------------------------------------
@@ -74,4 +94,7 @@ protected:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<UCoralCard*> CurrentHand;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UCoralCard* SelectedCard = nullptr;
 };

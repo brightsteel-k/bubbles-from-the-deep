@@ -7,6 +7,12 @@
 #include "DrownedGameSubsystem.generated.h"
 
 // -----------------------------------------------------------------------------
+// Delegate Definitions
+// -----------------------------------------------------------------------------
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FPoptabsCountChanged, int, PoptabsCount);
+
+// -----------------------------------------------------------------------------
 // Class Definition
 // -----------------------------------------------------------------------------
 
@@ -23,6 +29,9 @@ public:
 	// Public Member Variables
 	// -----------------------------------------------------------------------------
 
+	UPROPERTY(BlueprintAssignable, BlueprintReadWrite, BlueprintCallable)
+	FPoptabsCountChanged PoptabsCountChangedEvent;
+	
 	UPROPERTY(BlueprintReadWrite)
 	int PopTabCount;
 

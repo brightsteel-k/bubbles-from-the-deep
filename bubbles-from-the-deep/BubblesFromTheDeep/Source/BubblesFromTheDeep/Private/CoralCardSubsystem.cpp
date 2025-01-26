@@ -13,6 +13,7 @@
 void UCoralCardSubsystem::LoadDeck(UCoralCardDeck* Deck)
 {
 	Deck->GetDeck(CurrentDeck);
+	DeckSizeChangeEvent.Broadcast(CurrentDeck.Num());
 }
 
 // -----------------------------------------------------------------------------
@@ -31,23 +32,60 @@ void UCoralCardSubsystem::DrawCard()
 	CurrentDeck.RemoveAt(DrawIndex);
 	CurrentHand.Add(DrawnCard);
 	DrawCardEvent.Broadcast(DrawnCard);
+	DeckSizeChangeEvent.Broadcast(CurrentDeck.Num());
 }
 
 // -----------------------------------------------------------------------------
 
-bool UCoralCardSubsystem::CanPlayCard(UCoralCard* Card)
+bool UCoralCardSubsystem::CanPlaySelectedCard()
 {
+	if (!HasSelectedCard()) {
+		return false;
+	}
 	return UGameplayStatics::GetGameInstance(this)->
-		GetSubsystem<UDrownedGameSubsystem>()->GetPopTabCount() >= Card->Cost;
+		GetSubsystem<UDrownedGameSubsystem>()->GetPopTabCount() >= SelectedCard->Cost;
 }
 
 // -----------------------------------------------------------------------------
 
-void UCoralCardSubsystem::PlayCard(UCoralCard* Card)
+UCoralCard* UCoralCardSubsystem::PlaySelectedCard()
 {
 	UGameplayStatics::GetGameInstance(this)->
-		GetSubsystem<UDrownedGameSubsystem>()->SpendPopTabs(Card->Cost);
-	CurrentHand.Remove(Card);
+		GetSubsystem<UDrownedGameSubsystem>()->SpendPopTabs(SelectedCard->Cost);
+	CurrentHand.Remove(SelectedCard);
+	
+	UCoralCard* PlayedCard = SelectedCard;
+	ClearSelectedCard();
+	CardPlayedEvent.Broadcast(PlayedCard);
+	return PlayedCard;
+}
+
+// -----------------------------------------------------------------------------
+
+void UCoralCardSubsystem::SetSelectedCard(UCoralCard* Card)
+{
+	SelectedCard = Card;
+}
+
+// -----------------------------------------------------------------------------
+
+void UCoralCardSubsystem::ClearSelectedCard()
+{
+	SelectedCard = nullptr;
+}
+
+// -----------------------------------------------------------------------------
+
+UCoralCard* UCoralCardSubsystem::GetSelectedCard()
+{
+	return SelectedCard;
+}
+
+// -----------------------------------------------------------------------------
+
+bool UCoralCardSubsystem::HasSelectedCard()
+{
+	return SelectedCard != nullptr;
 }
 
 // -----------------------------------------------------------------------------
