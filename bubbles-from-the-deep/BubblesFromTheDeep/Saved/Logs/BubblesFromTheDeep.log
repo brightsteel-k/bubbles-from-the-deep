@@ -5448,3 +5448,1258 @@ Script Stack (1 frames) :
 [2025.01.26-22.15.05:952][103]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7744.642090
 [2025.01.26-22.15.06:953][106]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.01.26-22.15.06:953][106]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7745.309082, Update Interval: 320.869171
+[2025.01.26-22.21.09:689][194]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8108.382812
+[2025.01.26-22.21.10:689][197]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.26-22.21.10:689][197]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8109.048828, Update Interval: 351.897339
+[2025.01.26-22.27.36:092][353]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8494.782227
+[2025.01.26-22.27.37:092][356]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.26-22.27.37:092][356]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8495.449219, Update Interval: 328.224731
+[2025.01.26-22.33.38:481][440]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8857.159180
+[2025.01.26-22.33.39:480][444]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.26-22.33.39:480][444]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8857.826172, Update Interval: 340.346680
+[2025.01.26-22.40.14:878][629]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9253.530273
+[2025.01.26-22.40.15:878][632]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.26-22.40.15:878][632]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9254.198242, Update Interval: 359.342621
+[2025.01.26-22.47.02:059][248]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 C:\Users\troop\Desktop\Archived\GameModels\Sounds\ButtonPress.wav)
+[2025.01.26-22.47.02:067][248]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave ButtonPress...
+[2025.01.26-22.47.02:071][248]LogAudio: Display: Chunk stats for (SoundWave /Game/BubblesFromTheDeep/MenuScreens_UI_/ButtonPress.ButtonPress: Duration=0.00 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=31453 bytes, ChunkN=0)
+[2025.01.26-22.47.02:073][248]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave ButtonPress...
+[2025.01.26-22.47.02:078][248]LogAudio: Display: Chunk stats for (SoundWave /Game/BubblesFromTheDeep/MenuScreens_UI_/ButtonPress.ButtonPress: Duration=0.00 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=31453 bytes, ChunkN=0)
+[2025.01.26-22.47.11:591][  1]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9670.217773
+[2025.01.26-22.47.11:728][ 16]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.26-22.47.11:728][ 17]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9670.344727, Update Interval: 349.694519
+[2025.01.26-22.47.32:447][245]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.01.26-22.47.36:203][684]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.26-22.47.36:225][684]LogPlayLevel: [PlayLevel] Compiling MainMenu before play...
+[2025.01.26-22.47.36:258][684]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.01.26-22.47.36:259][684]LogPlayLevel: PlayLevel: Blueprint regeneration took 35 ms (1 blueprints)
+[2025.01.26-22.47.36:260][684]LogPlayLevel: Display: Creating online subsystem for client :Context_68
+[2025.01.26-22.47.36:261][684]LogOnline: OSS: Created online subsystem instance for: :Context_68
+[2025.01.26-22.47.36:291][685]LogPlayLevel: Creating play world package: /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.47.36:292][685]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000862s)
+[2025.01.26-22.47.36:292][685]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap.LVL_MainMenuMap to /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap (0.000903s)
+[2025.01.26-22.47.36:301][685]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.01.26-22.47.36:302][685]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-22.47.36:303][685]LogPlayLevel: PIE: World Init took: (0.000974s)
+[2025.01.26-22.47.36:341][685]LogAudio: Display: Creating Audio Device:                 Id: 45, Scope: Unique, Realtime: True
+[2025.01.26-22.47.36:341][685]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.26-22.47.36:341][685]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.26-22.47.36:341][685]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.26-22.47.36:341][685]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.26-22.47.36:341][685]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.26-22.47.36:341][685]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.26-22.47.36:341][685]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.26-22.47.36:341][685]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.26-22.47.36:341][685]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.26-22.47.36:341][685]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.26-22.47.36:341][685]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.26-22.47.36:343][685]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.26-22.47.36:361][685]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.01.26-22.47.36:361][685]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.26-22.47.36:361][685]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.26-22.47.36:361][685]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.26-22.47.36:361][685]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=45
+[2025.01.26-22.47.36:361][685]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=45
+[2025.01.26-22.47.36:362][685]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=45
+[2025.01.26-22.47.36:362][685]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=45
+[2025.01.26-22.47.36:362][685]LogInit: FAudioDevice initialized with ID 45.
+[2025.01.26-22.47.36:362][685]LogAudio: Display: Audio Device (ID: 45) registered with world 'LVL_MainMenuMap'.
+[2025.01.26-22.47.36:362][685]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 45
+[2025.01.26-22.47.36:370][685]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-22.47.36:371][685]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap up for play (max tick rate 0) at 2025.01.26-14.47.36
+[2025.01.26-22.47.36:371][685]LogWorld: Bringing up level for play took: 0.000363
+[2025.01.26-22.47.36:409][685]PIE: Server logged in
+[2025.01.26-22.47.36:410][685]PIE: Play in editor total start time 0.196 seconds.
+[2025.01.26-22.47.44:087][587]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-22.47.44:088][587]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.47.44:088][587]LogWorld: UWorld::CleanupWorld for LVL_MainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-22.47.44:088][587]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.47.44:088][587]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-22.47.44:088][587]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-22.47.44:090][587]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.26-22.47.44:091][587]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.47.44:100][587]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-22.47.44:100][587]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 45
+[2025.01.26-22.47.44:100][587]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45
+[2025.01.26-22.47.44:101][587]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45
+[2025.01.26-22.47.44:105][587]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.01.26-22.47.44:161][588]LogPlayLevel: Display: Destroying online subsystem :Context_68
+[2025.01.26-22.48.04:639][687]LogEditorTransaction: Undo Create Pin Link
+[2025.01.26-22.48.15:725][915]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.01.26-22.48.19:692][373]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.26-22.48.19:712][373]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.01.26-22.48.19:712][373]LogPlayLevel: Display: Creating online subsystem for client :Context_69
+[2025.01.26-22.48.19:713][373]LogOnline: OSS: Created online subsystem instance for: :Context_69
+[2025.01.26-22.48.19:722][374]LogPlayLevel: Creating play world package: /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.48.19:723][374]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000745s)
+[2025.01.26-22.48.19:723][374]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap.LVL_MainMenuMap to /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap (0.000781s)
+[2025.01.26-22.48.19:733][374]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.01.26-22.48.19:735][374]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-22.48.19:736][374]LogPlayLevel: PIE: World Init took: (0.000878s)
+[2025.01.26-22.48.19:775][374]LogAudio: Display: Creating Audio Device:                 Id: 46, Scope: Unique, Realtime: True
+[2025.01.26-22.48.19:775][374]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.26-22.48.19:775][374]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.26-22.48.19:775][374]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.26-22.48.19:775][374]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.26-22.48.19:775][374]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.26-22.48.19:775][374]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.26-22.48.19:775][374]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.26-22.48.19:775][374]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.26-22.48.19:775][374]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.26-22.48.19:775][374]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.26-22.48.19:775][374]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.26-22.48.19:776][374]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.26-22.48.19:793][374]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.01.26-22.48.19:793][374]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.26-22.48.19:793][374]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.26-22.48.19:793][374]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.26-22.48.19:793][374]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=46
+[2025.01.26-22.48.19:793][374]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=46
+[2025.01.26-22.48.19:794][374]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=46
+[2025.01.26-22.48.19:794][374]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=46
+[2025.01.26-22.48.19:794][374]LogInit: FAudioDevice initialized with ID 46.
+[2025.01.26-22.48.19:794][374]LogAudio: Display: Audio Device (ID: 46) registered with world 'LVL_MainMenuMap'.
+[2025.01.26-22.48.19:795][374]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 46
+[2025.01.26-22.48.19:801][374]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-22.48.19:802][374]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap up for play (max tick rate 0) at 2025.01.26-14.48.19
+[2025.01.26-22.48.19:802][374]LogWorld: Bringing up level for play took: 0.000337
+[2025.01.26-22.48.19:841][374]PIE: Server logged in
+[2025.01.26-22.48.19:842][374]PIE: Play in editor total start time 0.137 seconds.
+[2025.01.26-22.48.26:513][124]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/BubblesFromTheDeep/Levels/LVL_Credits"
+[2025.01.26-22.48.26:513][124]LogNet: Browse: /Game/BubblesFromTheDeep/Levels/LVL_Credits
+[2025.01.26-22.48.26:513][124]LogLoad: LoadMap: /Game/BubblesFromTheDeep/Levels/LVL_Credits
+[2025.01.26-22.48.26:513][124]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.48.26:514][124]LogWorld: UWorld::CleanupWorld for LVL_MainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-22.48.26:514][124]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.48.26:514][124]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-22.48.26:514][124]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-22.48.26:574][124]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.26-22.48.26:575][124]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.01.26-22.48.26:584][124]LogAudio: Display: Audio Device (ID: 46) registered with world 'LVL_Credits'.
+[2025.01.26-22.48.26:584][124]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-22.48.26:585][124]LogPlayLevel: PIE: World Init took: (0.000749s)
+[2025.01.26-22.48.26:585][124]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-22.48.26:585][124]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_Credits.LVL_Credits up for play (max tick rate 0) at 2025.01.26-14.48.26
+[2025.01.26-22.48.26:585][124]LogWorld: Bringing up level for play took: 0.000259
+[2025.01.26-22.48.26:586][124]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.01.26-22.48.26:586][124]LogLoad: Took 0.073054 seconds to LoadMap(/Game/BubblesFromTheDeep/Levels/LVL_Credits)
+[2025.01.26-22.48.26:587][124]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/BubblesFromTheDeep/Levels/LVL_Credits
+[2025.01.26-22.48.27:797][269]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap"
+[2025.01.26-22.48.27:797][269]LogNet: Browse: /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap
+[2025.01.26-22.48.27:797][269]LogLoad: LoadMap: /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap
+[2025.01.26-22.48.27:797][269]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_Credits
+[2025.01.26-22.48.27:798][269]LogWorld: UWorld::CleanupWorld for LVL_Credits, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-22.48.27:798][269]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.48.27:798][269]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-22.48.27:798][269]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-22.48.27:850][269]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.26-22.48.27:852][269]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.01.26-22.48.27:853][269]LogPlayLevel: Creating play world package: /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.48.27:853][269]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000655s)
+[2025.01.26-22.48.27:853][269]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap.LVL_MainMenuMap to /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap (0.000692s)
+[2025.01.26-22.48.27:853][269]LogAudio: Display: Audio Device (ID: 46) registered with world 'LVL_MainMenuMap'.
+[2025.01.26-22.48.27:853][269]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-22.48.27:853][269]LogPlayLevel: PIE: World Init took: (0.000643s)
+[2025.01.26-22.48.27:853][269]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-22.48.27:855][269]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap up for play (max tick rate 0) at 2025.01.26-14.48.27
+[2025.01.26-22.48.27:855][269]LogWorld: Bringing up level for play took: 0.000192
+[2025.01.26-22.48.27:855][269]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.01.26-22.48.27:856][269]LogLoad: Took 0.058379 seconds to LoadMap(/Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap)
+[2025.01.26-22.48.27:856][269]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.48.36:737][329]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-22.48.36:738][329]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.48.36:738][329]LogWorld: UWorld::CleanupWorld for LVL_MainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-22.48.36:738][329]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.48.36:738][329]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-22.48.36:738][329]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-22.48.36:739][329]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.26-22.48.36:741][329]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.48.36:751][329]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-22.48.36:751][329]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 46
+[2025.01.26-22.48.36:751][329]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46
+[2025.01.26-22.48.36:752][329]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46
+[2025.01.26-22.48.36:757][329]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.01.26-22.48.36:814][330]LogPlayLevel: Display: Destroying online subsystem :Context_69
+[2025.01.26-22.48.43:391][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.01.26-22.48.44:859][213]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.26-22.48.44:878][213]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.01.26-22.48.44:878][213]LogPlayLevel: Display: Creating online subsystem for client :Context_70
+[2025.01.26-22.48.44:879][213]LogOnline: OSS: Created online subsystem instance for: :Context_70
+[2025.01.26-22.48.44:891][214]LogPlayLevel: Creating play world package: /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.48.44:892][214]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000966s)
+[2025.01.26-22.48.44:892][214]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap.LVL_MainMenuMap to /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap (0.001018s)
+[2025.01.26-22.48.44:898][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.01.26-22.48.44:900][214]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-22.48.44:901][214]LogPlayLevel: PIE: World Init took: (0.000805s)
+[2025.01.26-22.48.44:939][214]LogAudio: Display: Creating Audio Device:                 Id: 47, Scope: Unique, Realtime: True
+[2025.01.26-22.48.44:939][214]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.26-22.48.44:939][214]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.26-22.48.44:939][214]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.26-22.48.44:939][214]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.26-22.48.44:939][214]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.26-22.48.44:939][214]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.26-22.48.44:939][214]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.26-22.48.44:939][214]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.26-22.48.44:939][214]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.26-22.48.44:939][214]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.26-22.48.44:939][214]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.26-22.48.44:940][214]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.26-22.48.44:956][214]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.01.26-22.48.44:957][214]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.26-22.48.44:957][214]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.26-22.48.44:957][214]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.26-22.48.44:957][214]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=47
+[2025.01.26-22.48.44:957][214]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=47
+[2025.01.26-22.48.44:958][214]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=47
+[2025.01.26-22.48.44:958][214]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=47
+[2025.01.26-22.48.44:958][214]LogInit: FAudioDevice initialized with ID 47.
+[2025.01.26-22.48.44:958][214]LogAudio: Display: Audio Device (ID: 47) registered with world 'LVL_MainMenuMap'.
+[2025.01.26-22.48.44:958][214]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 47
+[2025.01.26-22.48.44:964][214]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-22.48.44:964][214]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap up for play (max tick rate 0) at 2025.01.26-14.48.44
+[2025.01.26-22.48.44:964][214]LogWorld: Bringing up level for play took: 0.000429
+[2025.01.26-22.48.45:002][214]PIE: Server logged in
+[2025.01.26-22.48.45:003][214]PIE: Play in editor total start time 0.132 seconds.
+[2025.01.26-22.48.49:208][661]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/BubblesFromTheDeep/Levels/LVL_BBL_Level1"
+[2025.01.26-22.48.49:208][661]LogNet: Browse: /Game/BubblesFromTheDeep/Levels/LVL_BBL_Level1
+[2025.01.26-22.48.49:208][661]LogLoad: LoadMap: /Game/BubblesFromTheDeep/Levels/LVL_BBL_Level1
+[2025.01.26-22.48.49:208][661]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.48.49:209][661]LogWorld: UWorld::CleanupWorld for LVL_MainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-22.48.49:209][661]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.48.49:209][661]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-22.48.49:209][661]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-22.48.49:255][661]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.26-22.48.49:257][661]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.01.26-22.48.49:267][661]LogAudio: Display: Audio Device (ID: 47) registered with world 'LVL_BBL_Level1'.
+[2025.01.26-22.48.49:267][661]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-22.48.49:268][661]LogPlayLevel: PIE: World Init took: (0.000674s)
+[2025.01.26-22.48.49:268][661]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-22.48.49:286][661]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_BBL_Level1.LVL_BBL_Level1 up for play (max tick rate 0) at 2025.01.26-14.48.49
+[2025.01.26-22.48.49:287][661]LogWorld: Bringing up level for play took: 0.019336
+[2025.01.26-22.48.49:287][661]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.01.26-22.48.49:289][661]LogLoad: Took 0.080530 seconds to LoadMap(/Game/BubblesFromTheDeep/Levels/LVL_BBL_Level1)
+[2025.01.26-22.48.49:289][661]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/BubblesFromTheDeep/Levels/LVL_BBL_Level1
+[2025.01.26-22.48.51:728][946]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-22.48.51:728][946]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_BBL_Level1
+[2025.01.26-22.48.51:728][946]LogWorld: UWorld::CleanupWorld for LVL_BBL_Level1, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-22.48.51:730][946]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.48.51:730][946]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-22.48.51:730][946]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-22.48.51:732][946]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.26-22.48.51:734][946]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.48.51:747][946]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-22.48.51:747][946]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 47
+[2025.01.26-22.48.51:747][946]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=47
+[2025.01.26-22.48.51:749][946]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=47
+[2025.01.26-22.48.51:754][946]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.01.26-22.48.51:818][947]LogPlayLevel: Display: Destroying online subsystem :Context_70
+[2025.01.26-22.49.16:603][842]LogContentBrowser: Deferred new asset file creation: NewSoundCue
+[2025.01.26-22.49.16:613][842]LogContentBrowser: Creating deferred item: NewSoundCue
+[2025.01.26-22.49.16:627][843]LogContentBrowser: Renaming the item being created (Deferred Item: NewSoundCue).
+[2025.01.26-22.49.19:530][124]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetTileView [SAssetView.cpp(1688)].
+[2025.01.26-22.49.19:530][124]LogContentBrowser: Attempting asset rename: NewSoundCue -> NewSoundCue
+[2025.01.26-22.49.19:534][124]LogContentBrowser: End creating deferred item NewSoundCue
+[2025.01.26-22.49.19:551][124]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.01.26-22.49.19:553][124]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap' took 0.011
+[2025.01.26-22.49.19:554][124]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BubblesFromTheDeep/MenuScreens(UI)/MainMenu] ([2] browsable assets)...
+[2025.01.26-22.49.19:557][124]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/BubblesFromTheDeep/MenuScreens(UI)/MainMenu.MainMenu]
+[2025.01.26-22.49.19:557][124]OBJ SavePackage: Finished generating thumbnails for package [/Game/BubblesFromTheDeep/MenuScreens(UI)/MainMenu]
+[2025.01.26-22.49.19:563][124]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BubblesFromTheDeep/MenuScreens(UI)/MainMenu_Auto5
+[2025.01.26-22.49.19:563][124]LogSavePackage: Moving '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Saved/MainMenu_Auto5D4C6221643771E449871288C538D2582.tmp' to '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Saved/Autosaves/Game/BubblesFromTheDeep/MenuScreens(UI)/MainMenu_Auto5.uasset'
+[2025.01.26-22.49.19:566][124]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BubblesFromTheDeep/MenuScreens_UI_/ButtonPress] ([1] browsable assets)...
+[2025.01.26-22.49.19:568][124]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/BubblesFromTheDeep/MenuScreens_UI_/ButtonPress.ButtonPress]
+[2025.01.26-22.49.19:568][124]OBJ SavePackage: Finished generating thumbnails for package [/Game/BubblesFromTheDeep/MenuScreens_UI_/ButtonPress]
+[2025.01.26-22.49.19:572][124]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BubblesFromTheDeep/MenuScreens_UI_/ButtonPress_Auto5
+[2025.01.26-22.49.19:572][124]LogSavePackage: Moving '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Saved/ButtonPress_Auto582598D4940F53F54D896F9AC28053A85.tmp' to '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Saved/Autosaves/Game/BubblesFromTheDeep/MenuScreens_UI_/ButtonPress_Auto5.uasset'
+[2025.01.26-22.49.19:574][124]LogFileHelpers: Auto-saving content packages took 0.021
+[2025.01.26-22.49.27:112][926]LogContentBrowser: Attempting asset rename: NewSoundCue -> SOUND_ButtonPress
+[2025.01.26-22.49.27:145][926]LogMetaData: Removing '/Game/BubblesFromTheDeep/MenuScreens_UI_/SOUND_ButtonPress.SOUND_ButtonPress:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/BubblesFromTheDeep/MenuScreens_UI_/NewSoundCue.PackageMetaData'
+[2025.01.26-22.49.27:147][926]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.26-22.49.27:174][926]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BubblesFromTheDeep/MenuScreens_UI_/SOUND_ButtonPress] ([1] browsable assets)...
+[2025.01.26-22.49.27:174][926]OBJ SavePackage: Finished generating thumbnails for package [/Game/BubblesFromTheDeep/MenuScreens_UI_/SOUND_ButtonPress]
+[2025.01.26-22.49.27:175][926]LogSavePackage: Moving output files for package: /Game/BubblesFromTheDeep/MenuScreens_UI_/SOUND_ButtonPress
+[2025.01.26-22.49.27:175][926]LogSavePackage: Moving '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Saved/SOUND_ButtonPressEE79DAD446E5310BEF3476A4F2C689D9.tmp' to '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Content/BubblesFromTheDeep/MenuScreens_UI_/SOUND_ButtonPress.uasset'
+[2025.01.26-22.49.27:188][926]LogFileHelpers: InternalPromptForCheckoutAndSave took 40.672 ms (total: 1.29 sec)
+[2025.01.26-22.49.27:198][926]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.01.26-22.49.27:207][926]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.01.26-22.49.27:214][926]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.01.26-22.49.27:241][926]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.26-22.49.27:241][926]LogContentValidation: Enabled validators:
+[2025.01.26-22.49.27:241][926]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.26-22.49.27:241][926]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.26-22.49.27:241][926]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.26-22.49.27:241][926]LogContentValidation: Display: Validating asset /Game/BubblesFromTheDeep/MenuScreens_UI_/SOUND_ButtonPress.SOUND_ButtonPress
+[2025.01.26-22.49.27:241][926]AssetCheck: /Game/BubblesFromTheDeep/MenuScreens_UI_/SOUND_ButtonPress Validating asset
+[2025.01.26-22.49.28:521][ 61]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/BubblesFromTheDeep/MenuScreens_UI_/SOUND_ButtonPress.SOUND_ButtonPress
+[2025.01.26-22.50.08:014][737]LogAudio: Display: Cached duration for Sound Cue SoundCue /Game/BubblesFromTheDeep/MenuScreens_UI_/SOUND_ButtonPress.SOUND_ButtonPress was zero and has changed. Consider manually Re-saving the asset
+[2025.01.26-22.50.20:774][182]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.01.26-22.50.21:486][257]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.26-22.50.21:505][257]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.01.26-22.50.21:505][257]LogPlayLevel: Display: Creating online subsystem for client :Context_71
+[2025.01.26-22.50.21:506][257]LogOnline: OSS: Created online subsystem instance for: :Context_71
+[2025.01.26-22.50.21:516][258]LogPlayLevel: Creating play world package: /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.50.21:517][258]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000737s)
+[2025.01.26-22.50.21:517][258]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap.LVL_MainMenuMap to /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap (0.000771s)
+[2025.01.26-22.50.21:524][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.01.26-22.50.21:526][258]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-22.50.21:527][258]LogPlayLevel: PIE: World Init took: (0.000819s)
+[2025.01.26-22.50.21:565][258]LogAudio: Display: Creating Audio Device:                 Id: 48, Scope: Unique, Realtime: True
+[2025.01.26-22.50.21:565][258]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.26-22.50.21:565][258]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.26-22.50.21:565][258]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.26-22.50.21:565][258]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.26-22.50.21:565][258]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.26-22.50.21:565][258]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.26-22.50.21:565][258]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.26-22.50.21:565][258]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.26-22.50.21:565][258]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.26-22.50.21:565][258]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.26-22.50.21:565][258]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.26-22.50.21:566][258]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.26-22.50.21:582][258]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.01.26-22.50.21:582][258]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.26-22.50.21:582][258]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.26-22.50.21:582][258]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.26-22.50.21:583][258]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=48
+[2025.01.26-22.50.21:583][258]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=48
+[2025.01.26-22.50.21:584][258]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=48
+[2025.01.26-22.50.21:584][258]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=48
+[2025.01.26-22.50.21:584][258]LogInit: FAudioDevice initialized with ID 48.
+[2025.01.26-22.50.21:584][258]LogAudio: Display: Audio Device (ID: 48) registered with world 'LVL_MainMenuMap'.
+[2025.01.26-22.50.21:585][258]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 48
+[2025.01.26-22.50.21:590][258]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-22.50.21:590][258]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap up for play (max tick rate 0) at 2025.01.26-14.50.21
+[2025.01.26-22.50.21:591][258]LogWorld: Bringing up level for play took: 0.000378
+[2025.01.26-22.50.21:630][258]PIE: Server logged in
+[2025.01.26-22.50.21:630][258]PIE: Play in editor total start time 0.132 seconds.
+[2025.01.26-22.50.23:245][446]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/BubblesFromTheDeep/Levels/LVL_BBL_Level1"
+[2025.01.26-22.50.23:245][446]LogNet: Browse: /Game/BubblesFromTheDeep/Levels/LVL_BBL_Level1
+[2025.01.26-22.50.23:245][446]LogLoad: LoadMap: /Game/BubblesFromTheDeep/Levels/LVL_BBL_Level1
+[2025.01.26-22.50.23:245][446]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.50.23:246][446]LogWorld: UWorld::CleanupWorld for LVL_MainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-22.50.23:246][446]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.50.23:246][446]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-22.50.23:246][446]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-22.50.23:285][446]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.26-22.50.23:286][446]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.01.26-22.50.23:297][446]LogAudio: Display: Audio Device (ID: 48) registered with world 'LVL_BBL_Level1'.
+[2025.01.26-22.50.23:297][446]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-22.50.23:297][446]LogPlayLevel: PIE: World Init took: (0.000697s)
+[2025.01.26-22.50.23:297][446]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-22.50.23:317][446]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_BBL_Level1.LVL_BBL_Level1 up for play (max tick rate 0) at 2025.01.26-14.50.23
+[2025.01.26-22.50.23:317][446]LogWorld: Bringing up level for play took: 0.019295
+[2025.01.26-22.50.23:317][446]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.01.26-22.50.23:319][446]LogLoad: Took 0.074186 seconds to LoadMap(/Game/BubblesFromTheDeep/Levels/LVL_BBL_Level1)
+[2025.01.26-22.50.23:319][446]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/BubblesFromTheDeep/Levels/LVL_BBL_Level1
+[2025.01.26-22.50.24:668][601]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-22.50.24:668][601]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_BBL_Level1
+[2025.01.26-22.50.24:668][601]LogWorld: UWorld::CleanupWorld for LVL_BBL_Level1, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-22.50.24:670][601]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.50.24:670][601]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-22.50.24:670][601]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-22.50.24:672][601]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.26-22.50.24:673][601]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.50.24:681][601]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-22.50.24:681][601]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 48
+[2025.01.26-22.50.24:681][601]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=48
+[2025.01.26-22.50.24:682][601]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=48
+[2025.01.26-22.50.24:687][601]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.01.26-22.50.24:744][602]LogPlayLevel: Display: Destroying online subsystem :Context_71
+[2025.01.26-22.52.00:191][958]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.01.26-22.52.01:303][ 76]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.26-22.52.01:322][ 76]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.01.26-22.52.01:322][ 76]LogPlayLevel: Display: Creating online subsystem for client :Context_72
+[2025.01.26-22.52.01:323][ 76]LogOnline: OSS: Created online subsystem instance for: :Context_72
+[2025.01.26-22.52.01:332][ 77]LogPlayLevel: Creating play world package: /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.52.01:332][ 77]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000680s)
+[2025.01.26-22.52.01:332][ 77]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap.LVL_MainMenuMap to /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap (0.000714s)
+[2025.01.26-22.52.01:340][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.01.26-22.52.01:342][ 77]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-22.52.01:343][ 77]LogPlayLevel: PIE: World Init took: (0.000746s)
+[2025.01.26-22.52.01:381][ 77]LogAudio: Display: Creating Audio Device:                 Id: 49, Scope: Unique, Realtime: True
+[2025.01.26-22.52.01:381][ 77]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.26-22.52.01:381][ 77]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.26-22.52.01:381][ 77]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.26-22.52.01:381][ 77]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.26-22.52.01:381][ 77]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.26-22.52.01:381][ 77]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.26-22.52.01:381][ 77]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.26-22.52.01:381][ 77]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.26-22.52.01:381][ 77]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.26-22.52.01:381][ 77]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.26-22.52.01:381][ 77]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.26-22.52.01:382][ 77]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.26-22.52.01:398][ 77]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.01.26-22.52.01:398][ 77]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.26-22.52.01:398][ 77]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.26-22.52.01:398][ 77]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.26-22.52.01:398][ 77]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=49
+[2025.01.26-22.52.01:398][ 77]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=49
+[2025.01.26-22.52.01:399][ 77]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=49
+[2025.01.26-22.52.01:399][ 77]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=49
+[2025.01.26-22.52.01:399][ 77]LogInit: FAudioDevice initialized with ID 49.
+[2025.01.26-22.52.01:399][ 77]LogAudio: Display: Audio Device (ID: 49) registered with world 'LVL_MainMenuMap'.
+[2025.01.26-22.52.01:399][ 77]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 49
+[2025.01.26-22.52.01:405][ 77]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-22.52.01:406][ 77]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap up for play (max tick rate 0) at 2025.01.26-14.52.01
+[2025.01.26-22.52.01:406][ 77]LogWorld: Bringing up level for play took: 0.000339
+[2025.01.26-22.52.01:444][ 77]PIE: Server logged in
+[2025.01.26-22.52.01:445][ 77]PIE: Play in editor total start time 0.13 seconds.
+[2025.01.26-22.52.05:931][590]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/BubblesFromTheDeep/Levels/LVL_Credits"
+[2025.01.26-22.52.05:931][590]LogNet: Browse: /Game/BubblesFromTheDeep/Levels/LVL_Credits
+[2025.01.26-22.52.05:931][590]LogLoad: LoadMap: /Game/BubblesFromTheDeep/Levels/LVL_Credits
+[2025.01.26-22.52.05:931][590]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.52.05:932][590]LogWorld: UWorld::CleanupWorld for LVL_MainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-22.52.05:932][590]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.52.05:932][590]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-22.52.05:932][590]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-22.52.05:971][590]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.26-22.52.05:972][590]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.01.26-22.52.05:982][590]LogAudio: Display: Audio Device (ID: 49) registered with world 'LVL_Credits'.
+[2025.01.26-22.52.05:982][590]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-22.52.05:982][590]LogPlayLevel: PIE: World Init took: (0.000699s)
+[2025.01.26-22.52.05:982][590]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-22.52.05:982][590]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_Credits.LVL_Credits up for play (max tick rate 0) at 2025.01.26-14.52.05
+[2025.01.26-22.52.05:982][590]LogWorld: Bringing up level for play took: 0.000245
+[2025.01.26-22.52.05:982][590]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.01.26-22.52.05:983][590]LogLoad: Took 0.051931 seconds to LoadMap(/Game/BubblesFromTheDeep/Levels/LVL_Credits)
+[2025.01.26-22.52.05:983][590]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/BubblesFromTheDeep/Levels/LVL_Credits
+[2025.01.26-22.52.06:861][695]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap"
+[2025.01.26-22.52.06:861][695]LogNet: Browse: /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap
+[2025.01.26-22.52.06:861][695]LogLoad: LoadMap: /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap
+[2025.01.26-22.52.06:861][695]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_Credits
+[2025.01.26-22.52.06:862][695]LogWorld: UWorld::CleanupWorld for LVL_Credits, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-22.52.06:862][695]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.52.06:862][695]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-22.52.06:862][695]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-22.52.06:891][695]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.26-22.52.06:892][695]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.01.26-22.52.06:893][695]LogPlayLevel: Creating play world package: /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.52.06:894][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000654s)
+[2025.01.26-22.52.06:894][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap.LVL_MainMenuMap to /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap (0.000691s)
+[2025.01.26-22.52.06:894][695]LogAudio: Display: Audio Device (ID: 49) registered with world 'LVL_MainMenuMap'.
+[2025.01.26-22.52.06:894][695]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-22.52.06:895][695]LogPlayLevel: PIE: World Init took: (0.000622s)
+[2025.01.26-22.52.06:895][695]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-22.52.06:895][695]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap up for play (max tick rate 0) at 2025.01.26-14.52.06
+[2025.01.26-22.52.06:895][695]LogWorld: Bringing up level for play took: 0.000186
+[2025.01.26-22.52.06:895][695]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.01.26-22.52.06:896][695]LogLoad: Took 0.035427 seconds to LoadMap(/Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap)
+[2025.01.26-22.52.06:896][695]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.52.08:168][840]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-22.52.08:168][840]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.52.08:168][840]LogWorld: UWorld::CleanupWorld for LVL_MainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-22.52.08:168][840]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.52.08:168][840]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-22.52.08:168][840]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-22.52.08:170][840]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.26-22.52.08:172][840]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.52.08:179][840]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-22.52.08:179][840]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 49
+[2025.01.26-22.52.08:179][840]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=49
+[2025.01.26-22.52.08:181][840]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=49
+[2025.01.26-22.52.08:185][840]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.01.26-22.52.08:241][841]LogPlayLevel: Display: Destroying online subsystem :Context_72
+[2025.01.26-22.52.29:861][203]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.01.26-22.52.45:318][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.01.26-22.52.46:799][899]LogSlate: Window 'Delete Assets' being destroyed
+[2025.01.26-22.52.46:830][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.01.26-22.52.46:839][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.01.26-22.52.46:846][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2025.01.26-22.52.48:130][ 23]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.26-22.52.48:149][ 23]LogPlayLevel: [PlayLevel] Compiling MainMenu before play...
+[2025.01.26-22.52.48:173][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.01.26-22.52.48:176][ 23]LogPlayLevel: PlayLevel: Blueprint regeneration took 27 ms (1 blueprints)
+[2025.01.26-22.52.48:176][ 23]LogPlayLevel: Display: Creating online subsystem for client :Context_73
+[2025.01.26-22.52.48:178][ 23]LogOnline: OSS: Created online subsystem instance for: :Context_73
+[2025.01.26-22.52.48:210][ 24]LogPlayLevel: Creating play world package: /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.52.48:211][ 24]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000704s)
+[2025.01.26-22.52.48:211][ 24]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap.LVL_MainMenuMap to /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap (0.000738s)
+[2025.01.26-22.52.48:220][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.01.26-22.52.48:222][ 24]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-22.52.48:222][ 24]LogPlayLevel: PIE: World Init took: (0.000730s)
+[2025.01.26-22.52.48:259][ 24]LogAudio: Display: Creating Audio Device:                 Id: 50, Scope: Unique, Realtime: True
+[2025.01.26-22.52.48:259][ 24]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.26-22.52.48:259][ 24]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.26-22.52.48:259][ 24]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.26-22.52.48:259][ 24]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.26-22.52.48:259][ 24]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.26-22.52.48:259][ 24]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.26-22.52.48:259][ 24]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.26-22.52.48:259][ 24]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.26-22.52.48:259][ 24]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.26-22.52.48:259][ 24]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.26-22.52.48:259][ 24]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.26-22.52.48:260][ 24]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.26-22.52.48:277][ 24]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.01.26-22.52.48:277][ 24]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.26-22.52.48:277][ 24]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.26-22.52.48:277][ 24]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.26-22.52.48:277][ 24]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=50
+[2025.01.26-22.52.48:277][ 24]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=50
+[2025.01.26-22.52.48:278][ 24]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=50
+[2025.01.26-22.52.48:278][ 24]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=50
+[2025.01.26-22.52.48:278][ 24]LogInit: FAudioDevice initialized with ID 50.
+[2025.01.26-22.52.48:278][ 24]LogAudio: Display: Audio Device (ID: 50) registered with world 'LVL_MainMenuMap'.
+[2025.01.26-22.52.48:278][ 24]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 50
+[2025.01.26-22.52.48:286][ 24]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-22.52.48:286][ 24]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap up for play (max tick rate 0) at 2025.01.26-14.52.48
+[2025.01.26-22.52.48:286][ 24]LogWorld: Bringing up level for play took: 0.000337
+[2025.01.26-22.52.48:325][ 24]PIE: Server logged in
+[2025.01.26-22.52.48:326][ 24]PIE: Play in editor total start time 0.185 seconds.
+[2025.01.26-22.52.50:854][305]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/BubblesFromTheDeep/Levels/LVL_Credits"
+[2025.01.26-22.52.50:854][305]LogNet: Browse: /Game/BubblesFromTheDeep/Levels/LVL_Credits
+[2025.01.26-22.52.50:854][305]LogLoad: LoadMap: /Game/BubblesFromTheDeep/Levels/LVL_Credits
+[2025.01.26-22.52.50:854][305]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.52.50:854][305]LogWorld: UWorld::CleanupWorld for LVL_MainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-22.52.50:854][305]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.52.50:854][305]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-22.52.50:854][305]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-22.52.50:890][305]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.26-22.52.50:891][305]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.01.26-22.52.50:904][305]LogAudio: Display: Audio Device (ID: 50) registered with world 'LVL_Credits'.
+[2025.01.26-22.52.50:904][305]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-22.52.50:904][305]LogPlayLevel: PIE: World Init took: (0.000746s)
+[2025.01.26-22.52.50:904][305]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-22.52.50:905][305]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_Credits.LVL_Credits up for play (max tick rate 0) at 2025.01.26-14.52.50
+[2025.01.26-22.52.50:905][305]LogWorld: Bringing up level for play took: 0.000288
+[2025.01.26-22.52.50:905][305]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.01.26-22.52.50:906][305]LogLoad: Took 0.051750 seconds to LoadMap(/Game/BubblesFromTheDeep/Levels/LVL_Credits)
+[2025.01.26-22.52.50:906][305]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/BubblesFromTheDeep/Levels/LVL_Credits
+[2025.01.26-22.52.51:718][402]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap"
+[2025.01.26-22.52.51:718][402]LogNet: Browse: /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap
+[2025.01.26-22.52.51:718][402]LogLoad: LoadMap: /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap
+[2025.01.26-22.52.51:718][402]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_Credits
+[2025.01.26-22.52.51:718][402]LogWorld: UWorld::CleanupWorld for LVL_Credits, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-22.52.51:718][402]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.52.51:718][402]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-22.52.51:718][402]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-22.52.51:761][402]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.26-22.52.51:762][402]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.01.26-22.52.51:763][402]LogPlayLevel: Creating play world package: /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.52.51:764][402]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000631s)
+[2025.01.26-22.52.51:764][402]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap.LVL_MainMenuMap to /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap (0.000667s)
+[2025.01.26-22.52.51:764][402]LogAudio: Display: Audio Device (ID: 50) registered with world 'LVL_MainMenuMap'.
+[2025.01.26-22.52.51:764][402]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-22.52.51:765][402]LogPlayLevel: PIE: World Init took: (0.000623s)
+[2025.01.26-22.52.51:765][402]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-22.52.51:765][402]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap up for play (max tick rate 0) at 2025.01.26-14.52.51
+[2025.01.26-22.52.51:765][402]LogWorld: Bringing up level for play took: 0.000190
+[2025.01.26-22.52.51:765][402]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.01.26-22.52.51:766][402]LogLoad: Took 0.049105 seconds to LoadMap(/Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap)
+[2025.01.26-22.52.51:766][402]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.52.52:478][487]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/BubblesFromTheDeep/Levels/LVL_BBL_Level1"
+[2025.01.26-22.52.52:478][487]LogNet: Browse: /Game/BubblesFromTheDeep/Levels/LVL_BBL_Level1
+[2025.01.26-22.52.52:478][487]LogLoad: LoadMap: /Game/BubblesFromTheDeep/Levels/LVL_BBL_Level1
+[2025.01.26-22.52.52:478][487]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.52.52:478][487]LogWorld: UWorld::CleanupWorld for LVL_MainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-22.52.52:478][487]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.52.52:478][487]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-22.52.52:478][487]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-22.52.52:511][487]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.26-22.52.52:512][487]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.01.26-22.52.52:521][487]LogAudio: Display: Audio Device (ID: 50) registered with world 'LVL_BBL_Level1'.
+[2025.01.26-22.52.52:521][487]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-22.52.52:522][487]LogPlayLevel: PIE: World Init took: (0.000674s)
+[2025.01.26-22.52.52:522][487]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-22.52.52:541][487]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_BBL_Level1.LVL_BBL_Level1 up for play (max tick rate 0) at 2025.01.26-14.52.52
+[2025.01.26-22.52.52:541][487]LogWorld: Bringing up level for play took: 0.019203
+[2025.01.26-22.52.52:542][487]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.01.26-22.52.52:544][487]LogLoad: Took 0.066728 seconds to LoadMap(/Game/BubblesFromTheDeep/Levels/LVL_BBL_Level1)
+[2025.01.26-22.52.52:544][487]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/BubblesFromTheDeep/Levels/LVL_BBL_Level1
+[2025.01.26-22.52.54:638][731]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-22.52.54:638][731]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_BBL_Level1
+[2025.01.26-22.52.54:638][731]LogWorld: UWorld::CleanupWorld for LVL_BBL_Level1, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-22.52.54:641][731]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.52.54:641][731]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-22.52.54:641][731]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-22.52.54:642][731]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.26-22.52.54:644][731]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.52.54:653][731]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-22.52.54:653][731]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 50
+[2025.01.26-22.52.54:653][731]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=50
+[2025.01.26-22.52.54:655][731]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=50
+[2025.01.26-22.52.54:660][731]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.01.26-22.52.54:719][732]LogPlayLevel: Display: Destroying online subsystem :Context_73
+[2025.01.26-22.53.31:702][671]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 C:\Users\troop\Desktop\Archived\GameModels\Sounds\SelectingUnit.wav)
+[2025.01.26-22.53.31:703][671]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave SelectingUnit...
+[2025.01.26-22.53.31:706][671]LogAudio: Display: Chunk stats for (SoundWave /Game/BubblesFromTheDeep/MenuScreens_UI_/SelectingUnit.SelectingUnit: Duration=0.00 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=21957 bytes, ChunkN=0)
+[2025.01.26-22.53.31:707][671]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave SelectingUnit...
+[2025.01.26-22.53.31:710][671]LogAudio: Display: Chunk stats for (SoundWave /Game/BubblesFromTheDeep/MenuScreens_UI_/SelectingUnit.SelectingUnit: Duration=0.00 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=21957 bytes, ChunkN=0)
+[2025.01.26-22.53.39:239][283]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10057.916992
+[2025.01.26-22.53.39:398][302]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.26-22.53.39:398][302]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10058.067383, Update Interval: 337.286896
+[2025.01.26-22.54.00:111][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.01.26-22.54.01:272][641]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.26-22.54.01:296][641]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.01.26-22.54.01:296][641]LogPlayLevel: Display: Creating online subsystem for client :Context_74
+[2025.01.26-22.54.01:298][641]LogOnline: OSS: Created online subsystem instance for: :Context_74
+[2025.01.26-22.54.01:312][642]LogPlayLevel: Creating play world package: /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.54.01:314][642]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000877s)
+[2025.01.26-22.54.01:314][642]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap.LVL_MainMenuMap to /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap (0.000916s)
+[2025.01.26-22.54.01:321][642]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.01.26-22.54.01:324][642]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-22.54.01:325][642]LogPlayLevel: PIE: World Init took: (0.000986s)
+[2025.01.26-22.54.01:363][642]LogAudio: Display: Creating Audio Device:                 Id: 51, Scope: Unique, Realtime: True
+[2025.01.26-22.54.01:363][642]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.26-22.54.01:363][642]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.26-22.54.01:363][642]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.26-22.54.01:363][642]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.26-22.54.01:363][642]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.26-22.54.01:363][642]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.26-22.54.01:363][642]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.26-22.54.01:363][642]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.26-22.54.01:363][642]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.26-22.54.01:363][642]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.26-22.54.01:363][642]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.26-22.54.01:364][642]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.26-22.54.01:382][642]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.01.26-22.54.01:382][642]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.26-22.54.01:382][642]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.26-22.54.01:382][642]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.26-22.54.01:382][642]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=51
+[2025.01.26-22.54.01:382][642]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=51
+[2025.01.26-22.54.01:384][642]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=51
+[2025.01.26-22.54.01:384][642]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=51
+[2025.01.26-22.54.01:384][642]LogInit: FAudioDevice initialized with ID 51.
+[2025.01.26-22.54.01:384][642]LogAudio: Display: Audio Device (ID: 51) registered with world 'LVL_MainMenuMap'.
+[2025.01.26-22.54.01:384][642]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 51
+[2025.01.26-22.54.01:392][642]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-22.54.01:392][642]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap up for play (max tick rate 0) at 2025.01.26-14.54.01
+[2025.01.26-22.54.01:392][642]LogWorld: Bringing up level for play took: 0.000367
+[2025.01.26-22.54.01:433][642]PIE: Server logged in
+[2025.01.26-22.54.01:433][642]PIE: Play in editor total start time 0.15 seconds.
+[2025.01.26-22.54.08:841][525]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/BubblesFromTheDeep/Levels/LVL_Credits"
+[2025.01.26-22.54.08:841][525]LogNet: Browse: /Game/BubblesFromTheDeep/Levels/LVL_Credits
+[2025.01.26-22.54.08:841][525]LogLoad: LoadMap: /Game/BubblesFromTheDeep/Levels/LVL_Credits
+[2025.01.26-22.54.08:841][525]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.54.08:841][525]LogWorld: UWorld::CleanupWorld for LVL_MainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-22.54.08:841][525]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.54.08:841][525]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-22.54.08:841][525]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-22.54.08:870][525]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.26-22.54.08:871][525]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.01.26-22.54.08:879][525]LogAudio: Display: Audio Device (ID: 51) registered with world 'LVL_Credits'.
+[2025.01.26-22.54.08:879][525]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-22.54.08:880][525]LogPlayLevel: PIE: World Init took: (0.000728s)
+[2025.01.26-22.54.08:880][525]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-22.54.08:880][525]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_Credits.LVL_Credits up for play (max tick rate 0) at 2025.01.26-14.54.08
+[2025.01.26-22.54.08:881][525]LogWorld: Bringing up level for play took: 0.000239
+[2025.01.26-22.54.08:881][525]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.01.26-22.54.08:882][525]LogLoad: Took 0.040212 seconds to LoadMap(/Game/BubblesFromTheDeep/Levels/LVL_Credits)
+[2025.01.26-22.54.08:882][525]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/BubblesFromTheDeep/Levels/LVL_Credits
+[2025.01.26-22.54.09:442][592]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap"
+[2025.01.26-22.54.09:442][592]LogNet: Browse: /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap
+[2025.01.26-22.54.09:442][592]LogLoad: LoadMap: /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap
+[2025.01.26-22.54.09:442][592]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_Credits
+[2025.01.26-22.54.09:442][592]LogWorld: UWorld::CleanupWorld for LVL_Credits, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-22.54.09:442][592]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.54.09:442][592]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-22.54.09:442][592]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-22.54.09:471][592]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.26-22.54.09:472][592]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.01.26-22.54.09:474][592]LogPlayLevel: Creating play world package: /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.54.09:475][592]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000708s)
+[2025.01.26-22.54.09:475][592]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap.LVL_MainMenuMap to /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap (0.000748s)
+[2025.01.26-22.54.09:475][592]LogAudio: Display: Audio Device (ID: 51) registered with world 'LVL_MainMenuMap'.
+[2025.01.26-22.54.09:475][592]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-22.54.09:476][592]LogPlayLevel: PIE: World Init took: (0.000684s)
+[2025.01.26-22.54.09:476][592]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-22.54.09:476][592]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap up for play (max tick rate 0) at 2025.01.26-14.54.09
+[2025.01.26-22.54.09:476][592]LogWorld: Bringing up level for play took: 0.000194
+[2025.01.26-22.54.09:476][592]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.01.26-22.54.09:477][592]LogLoad: Took 0.034547 seconds to LoadMap(/Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap)
+[2025.01.26-22.54.09:477][592]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.54.12:538][952]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-22.54.12:538][952]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.54.12:538][952]LogWorld: UWorld::CleanupWorld for LVL_MainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-22.54.12:538][952]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.54.12:538][952]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-22.54.12:538][952]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-22.54.12:541][952]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.26-22.54.12:542][952]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.54.12:549][952]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-22.54.12:549][952]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 51
+[2025.01.26-22.54.12:549][952]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=51
+[2025.01.26-22.54.12:550][952]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=51
+[2025.01.26-22.54.12:554][952]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.01.26-22.54.12:611][953]LogPlayLevel: Display: Destroying online subsystem :Context_74
+[2025.01.26-22.54.27:745][469]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.01.26-22.54.31:375][895]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.26-22.54.31:395][895]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.01.26-22.54.31:395][895]LogPlayLevel: Display: Creating online subsystem for client :Context_75
+[2025.01.26-22.54.31:397][895]LogOnline: OSS: Created online subsystem instance for: :Context_75
+[2025.01.26-22.54.31:405][896]LogPlayLevel: Creating play world package: /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.54.31:405][896]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000831s)
+[2025.01.26-22.54.31:405][896]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap.LVL_MainMenuMap to /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap (0.000870s)
+[2025.01.26-22.54.31:414][896]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.01.26-22.54.31:416][896]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-22.54.31:417][896]LogPlayLevel: PIE: World Init took: (0.000869s)
+[2025.01.26-22.54.31:453][896]LogAudio: Display: Creating Audio Device:                 Id: 52, Scope: Unique, Realtime: True
+[2025.01.26-22.54.31:453][896]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.26-22.54.31:453][896]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.26-22.54.31:453][896]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.26-22.54.31:453][896]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.26-22.54.31:453][896]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.26-22.54.31:453][896]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.26-22.54.31:453][896]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.26-22.54.31:453][896]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.26-22.54.31:453][896]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.26-22.54.31:453][896]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.26-22.54.31:453][896]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.26-22.54.31:455][896]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.26-22.54.31:472][896]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.01.26-22.54.31:472][896]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.26-22.54.31:472][896]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.26-22.54.31:472][896]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.26-22.54.31:472][896]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=52
+[2025.01.26-22.54.31:472][896]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=52
+[2025.01.26-22.54.31:473][896]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=52
+[2025.01.26-22.54.31:474][896]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=52
+[2025.01.26-22.54.31:474][896]LogInit: FAudioDevice initialized with ID 52.
+[2025.01.26-22.54.31:474][896]LogAudio: Display: Audio Device (ID: 52) registered with world 'LVL_MainMenuMap'.
+[2025.01.26-22.54.31:474][896]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 52
+[2025.01.26-22.54.31:479][896]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-22.54.31:479][896]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap up for play (max tick rate 0) at 2025.01.26-14.54.31
+[2025.01.26-22.54.31:479][896]LogWorld: Bringing up level for play took: 0.000283
+[2025.01.26-22.54.31:520][896]PIE: Server logged in
+[2025.01.26-22.54.31:520][896]PIE: Play in editor total start time 0.134 seconds.
+[2025.01.26-22.54.36:232][412]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/BubblesFromTheDeep/Levels/LVL_Credits"
+[2025.01.26-22.54.36:232][412]LogNet: Browse: /Game/BubblesFromTheDeep/Levels/LVL_Credits
+[2025.01.26-22.54.36:232][412]LogLoad: LoadMap: /Game/BubblesFromTheDeep/Levels/LVL_Credits
+[2025.01.26-22.54.36:232][412]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.54.36:232][412]LogWorld: UWorld::CleanupWorld for LVL_MainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-22.54.36:232][412]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.54.36:232][412]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-22.54.36:232][412]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-22.54.36:271][412]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.26-22.54.36:272][412]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.01.26-22.54.36:281][412]LogAudio: Display: Audio Device (ID: 52) registered with world 'LVL_Credits'.
+[2025.01.26-22.54.36:281][412]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-22.54.36:282][412]LogPlayLevel: PIE: World Init took: (0.000727s)
+[2025.01.26-22.54.36:282][412]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-22.54.36:282][412]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_Credits.LVL_Credits up for play (max tick rate 0) at 2025.01.26-14.54.36
+[2025.01.26-22.54.36:282][412]LogWorld: Bringing up level for play took: 0.000258
+[2025.01.26-22.54.36:282][412]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.01.26-22.54.36:283][412]LogLoad: Took 0.051441 seconds to LoadMap(/Game/BubblesFromTheDeep/Levels/LVL_Credits)
+[2025.01.26-22.54.36:283][412]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/BubblesFromTheDeep/Levels/LVL_Credits
+[2025.01.26-22.54.41:963][ 92]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap"
+[2025.01.26-22.54.41:963][ 92]LogNet: Browse: /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap
+[2025.01.26-22.54.41:963][ 92]LogLoad: LoadMap: /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap
+[2025.01.26-22.54.41:963][ 92]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_Credits
+[2025.01.26-22.54.41:963][ 92]LogWorld: UWorld::CleanupWorld for LVL_Credits, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-22.54.41:963][ 92]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.54.41:963][ 92]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-22.54.41:963][ 92]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-22.54.41:996][ 92]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.26-22.54.41:997][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.01.26-22.54.41:998][ 92]LogPlayLevel: Creating play world package: /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.54.41:999][ 92]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000675s)
+[2025.01.26-22.54.41:999][ 92]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap.LVL_MainMenuMap to /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap (0.000713s)
+[2025.01.26-22.54.41:999][ 92]LogAudio: Display: Audio Device (ID: 52) registered with world 'LVL_MainMenuMap'.
+[2025.01.26-22.54.41:999][ 92]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-22.54.42:000][ 92]LogPlayLevel: PIE: World Init took: (0.000699s)
+[2025.01.26-22.54.42:000][ 92]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-22.54.42:000][ 92]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap up for play (max tick rate 0) at 2025.01.26-14.54.42
+[2025.01.26-22.54.42:000][ 92]LogWorld: Bringing up level for play took: 0.000207
+[2025.01.26-22.54.42:000][ 92]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.01.26-22.54.42:001][ 92]LogLoad: Took 0.037719 seconds to LoadMap(/Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap)
+[2025.01.26-22.54.42:001][ 92]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.54.44:879][437]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/BubblesFromTheDeep/Levels/LVL_BBL_Level1"
+[2025.01.26-22.54.44:879][437]LogNet: Browse: /Game/BubblesFromTheDeep/Levels/LVL_BBL_Level1
+[2025.01.26-22.54.44:879][437]LogLoad: LoadMap: /Game/BubblesFromTheDeep/Levels/LVL_BBL_Level1
+[2025.01.26-22.54.44:879][437]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.54.44:880][437]LogWorld: UWorld::CleanupWorld for LVL_MainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-22.54.44:880][437]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.54.44:880][437]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-22.54.44:880][437]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-22.54.44:915][437]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.26-22.54.44:915][437]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.01.26-22.54.44:927][437]LogAudio: Display: Audio Device (ID: 52) registered with world 'LVL_BBL_Level1'.
+[2025.01.26-22.54.44:927][437]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-22.54.44:927][437]LogPlayLevel: PIE: World Init took: (0.000700s)
+[2025.01.26-22.54.44:927][437]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-22.54.44:946][437]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_BBL_Level1.LVL_BBL_Level1 up for play (max tick rate 0) at 2025.01.26-14.54.44
+[2025.01.26-22.54.44:946][437]LogWorld: Bringing up level for play took: 0.018955
+[2025.01.26-22.54.44:947][437]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.01.26-22.54.44:948][437]LogLoad: Took 0.068453 seconds to LoadMap(/Game/BubblesFromTheDeep/Levels/LVL_BBL_Level1)
+[2025.01.26-22.54.44:948][437]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/BubblesFromTheDeep/Levels/LVL_BBL_Level1
+[2025.01.26-22.55.16:487][256]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-22.55.16:488][256]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_BBL_Level1
+[2025.01.26-22.55.16:488][256]LogWorld: UWorld::CleanupWorld for LVL_BBL_Level1, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-22.55.16:490][256]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.55.16:491][256]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-22.55.16:491][256]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-22.55.16:492][256]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.26-22.55.16:494][256]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.55.16:503][256]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-22.55.16:503][256]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 52
+[2025.01.26-22.55.16:503][256]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=52
+[2025.01.26-22.55.16:505][256]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=52
+[2025.01.26-22.55.16:510][256]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.01.26-22.55.16:567][257]LogPlayLevel: Display: Destroying online subsystem :Context_75
+[2025.01.26-22.56.16:656][999]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.01.26-22.56.49:427][579]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 C:\Users\troop\Desktop\Archived\Music\DrowningTypeBeat\TitleTheme.wav)
+[2025.01.26-22.56.55:079][579]LogSlate: Window 'Message' being destroyed
+[2025.01.26-22.56.55:087][579]Message dialog closed, result: No, title: Message, text: Use the selected Sound Wave 'SelectingUnit' in the Content Browser as a template for sound(s) being imported?
+[2025.01.26-22.56.55:107][579]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave TitleTheme...
+[2025.01.26-22.56.55:246][579]LogAudio: Display: Chunk stats for (SoundWave /Game/BubblesFromTheDeep/MenuScreens_UI_/TitleTheme.TitleTheme: Duration=0.00 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=6, Chunk0=28 bytes, Chunk1=261887 bytes, ChunkN=262103)
+[2025.01.26-22.56.55:249][579]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave TitleTheme...
+[2025.01.26-22.56.55:386][594]LogAudio: Display: Chunk stats for (SoundWave /Game/BubblesFromTheDeep/MenuScreens_UI_/TitleTheme.TitleTheme: Duration=0.00 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=6, Chunk0=28 bytes, Chunk1=261887 bytes, ChunkN=262103)
+[2025.01.26-22.57.22:274][261]LogContentBrowser: Deferred new asset file creation: NewSoundCue
+[2025.01.26-22.57.22:284][261]LogContentBrowser: Creating deferred item: NewSoundCue
+[2025.01.26-22.57.22:299][262]LogContentBrowser: Renaming the item being created (Deferred Item: NewSoundCue).
+[2025.01.26-22.57.25:851][584]LogContentBrowser: Attempting asset rename: NewSoundCue -> TitleMusic
+[2025.01.26-22.57.25:852][584]LogContentBrowser: End creating deferred item NewSoundCue
+[2025.01.26-22.57.27:066][692]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/BubblesFromTheDeep/MenuScreens_UI_/TitleMusic.TitleMusic
+[2025.01.26-22.57.32:422][310]LogAudio: Display: Cached duration for Sound Cue SoundCue /Game/BubblesFromTheDeep/MenuScreens_UI_/TitleMusic.TitleMusic was zero and has changed. Consider manually Re-saving the asset
+[2025.01.26-22.58.29:658][976]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.01.26-22.58.31:512][178]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.26-22.58.31:529][178]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.01.26-22.58.31:530][178]LogPlayLevel: Display: Creating online subsystem for client :Context_76
+[2025.01.26-22.58.31:531][178]LogOnline: OSS: Created online subsystem instance for: :Context_76
+[2025.01.26-22.58.31:539][179]LogPlayLevel: Creating play world package: /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.58.31:540][179]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000706s)
+[2025.01.26-22.58.31:540][179]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap.LVL_MainMenuMap to /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap (0.000741s)
+[2025.01.26-22.58.31:548][179]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.01.26-22.58.31:550][179]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-22.58.31:551][179]LogPlayLevel: PIE: World Init took: (0.000809s)
+[2025.01.26-22.58.31:588][179]LogAudio: Display: Creating Audio Device:                 Id: 53, Scope: Unique, Realtime: True
+[2025.01.26-22.58.31:588][179]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.26-22.58.31:588][179]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.26-22.58.31:588][179]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.26-22.58.31:588][179]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.26-22.58.31:588][179]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.26-22.58.31:588][179]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.26-22.58.31:588][179]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.26-22.58.31:588][179]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.26-22.58.31:588][179]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.26-22.58.31:588][179]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.26-22.58.31:588][179]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.26-22.58.31:590][179]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.26-22.58.31:608][179]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.01.26-22.58.31:608][179]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.26-22.58.31:608][179]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.26-22.58.31:609][179]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.26-22.58.31:609][179]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=53
+[2025.01.26-22.58.31:609][179]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=53
+[2025.01.26-22.58.31:610][179]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=53
+[2025.01.26-22.58.31:610][179]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=53
+[2025.01.26-22.58.31:610][179]LogInit: FAudioDevice initialized with ID 53.
+[2025.01.26-22.58.31:610][179]LogAudio: Display: Audio Device (ID: 53) registered with world 'LVL_MainMenuMap'.
+[2025.01.26-22.58.31:610][179]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 53
+[2025.01.26-22.58.31:616][179]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-22.58.31:616][179]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap up for play (max tick rate 0) at 2025.01.26-14.58.31
+[2025.01.26-22.58.31:616][179]LogWorld: Bringing up level for play took: 0.000250
+[2025.01.26-22.58.31:655][179]PIE: Server logged in
+[2025.01.26-22.58.31:655][179]PIE: Play in editor total start time 0.133 seconds.
+[2025.01.26-22.58.34:732][537]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/BubblesFromTheDeep/Levels/LVL_Credits"
+[2025.01.26-22.58.34:732][537]LogNet: Browse: /Game/BubblesFromTheDeep/Levels/LVL_Credits
+[2025.01.26-22.58.34:732][537]LogLoad: LoadMap: /Game/BubblesFromTheDeep/Levels/LVL_Credits
+[2025.01.26-22.58.34:732][537]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.58.34:732][537]LogWorld: UWorld::CleanupWorld for LVL_MainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-22.58.34:732][537]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.58.34:733][537]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-22.58.34:733][537]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-22.58.34:775][537]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.26-22.58.34:776][537]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.01.26-22.58.34:784][537]LogAudio: Display: Audio Device (ID: 53) registered with world 'LVL_Credits'.
+[2025.01.26-22.58.34:784][537]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-22.58.34:786][537]LogPlayLevel: PIE: World Init took: (0.000748s)
+[2025.01.26-22.58.34:786][537]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-22.58.34:786][537]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_Credits.LVL_Credits up for play (max tick rate 0) at 2025.01.26-14.58.34
+[2025.01.26-22.58.34:786][537]LogWorld: Bringing up level for play took: 0.000254
+[2025.01.26-22.58.34:786][537]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.01.26-22.58.34:787][537]LogLoad: Took 0.054238 seconds to LoadMap(/Game/BubblesFromTheDeep/Levels/LVL_Credits)
+[2025.01.26-22.58.34:787][537]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/BubblesFromTheDeep/Levels/LVL_Credits
+[2025.01.26-22.58.36:540][747]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap"
+[2025.01.26-22.58.36:540][747]LogNet: Browse: /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap
+[2025.01.26-22.58.36:540][747]LogLoad: LoadMap: /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap
+[2025.01.26-22.58.36:540][747]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_Credits
+[2025.01.26-22.58.36:541][747]LogWorld: UWorld::CleanupWorld for LVL_Credits, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-22.58.36:541][747]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.58.36:541][747]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-22.58.36:541][747]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-22.58.36:594][747]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.26-22.58.36:595][747]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.01.26-22.58.36:597][747]LogPlayLevel: Creating play world package: /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.58.36:598][747]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000706s)
+[2025.01.26-22.58.36:598][747]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap.LVL_MainMenuMap to /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap (0.000743s)
+[2025.01.26-22.58.36:598][747]LogAudio: Display: Audio Device (ID: 53) registered with world 'LVL_MainMenuMap'.
+[2025.01.26-22.58.36:598][747]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-22.58.36:598][747]LogPlayLevel: PIE: World Init took: (0.000679s)
+[2025.01.26-22.58.36:598][747]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-22.58.36:599][747]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap up for play (max tick rate 0) at 2025.01.26-14.58.36
+[2025.01.26-22.58.36:599][747]LogWorld: Bringing up level for play took: 0.000201
+[2025.01.26-22.58.36:599][747]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.01.26-22.58.36:600][747]LogLoad: Took 0.060298 seconds to LoadMap(/Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap)
+[2025.01.26-22.58.36:600][747]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.58.37:961][910]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/BubblesFromTheDeep/Levels/LVL_BBL_Level1"
+[2025.01.26-22.58.37:961][910]LogNet: Browse: /Game/BubblesFromTheDeep/Levels/LVL_BBL_Level1
+[2025.01.26-22.58.37:961][910]LogLoad: LoadMap: /Game/BubblesFromTheDeep/Levels/LVL_BBL_Level1
+[2025.01.26-22.58.37:961][910]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.58.37:962][910]LogWorld: UWorld::CleanupWorld for LVL_MainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-22.58.37:962][910]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.58.37:962][910]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-22.58.37:962][910]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-22.58.37:991][910]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.26-22.58.37:992][910]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.01.26-22.58.38:002][910]LogAudio: Display: Audio Device (ID: 53) registered with world 'LVL_BBL_Level1'.
+[2025.01.26-22.58.38:002][910]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-22.58.38:002][910]LogPlayLevel: PIE: World Init took: (0.000694s)
+[2025.01.26-22.58.38:002][910]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-22.58.38:022][910]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_BBL_Level1.LVL_BBL_Level1 up for play (max tick rate 0) at 2025.01.26-14.58.38
+[2025.01.26-22.58.38:023][910]LogWorld: Bringing up level for play took: 0.020106
+[2025.01.26-22.58.38:023][910]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.01.26-22.58.38:025][910]LogLoad: Took 0.063747 seconds to LoadMap(/Game/BubblesFromTheDeep/Levels/LVL_BBL_Level1)
+[2025.01.26-22.58.38:025][910]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/BubblesFromTheDeep/Levels/LVL_BBL_Level1
+[2025.01.26-22.58.39:638][ 93]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-22.58.39:638][ 93]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_BBL_Level1
+[2025.01.26-22.58.39:638][ 93]LogWorld: UWorld::CleanupWorld for LVL_BBL_Level1, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-22.58.39:640][ 93]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.58.39:640][ 93]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-22.58.39:640][ 93]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-22.58.39:642][ 93]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.26-22.58.39:644][ 93]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.58.39:653][ 93]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-22.58.39:653][ 93]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 53
+[2025.01.26-22.58.39:653][ 93]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=53
+[2025.01.26-22.58.39:654][ 93]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=53
+[2025.01.26-22.58.39:659][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.01.26-22.58.39:716][ 94]LogPlayLevel: Display: Destroying online subsystem :Context_76
+[2025.01.26-22.58.44:056][614]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.26-22.58.44:076][614]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.01.26-22.58.44:076][614]LogPlayLevel: Display: Creating online subsystem for client :Context_77
+[2025.01.26-22.58.44:077][614]LogOnline: OSS: Created online subsystem instance for: :Context_77
+[2025.01.26-22.58.44:082][615]LogPlayLevel: Creating play world package: /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.58.44:082][615]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000659s)
+[2025.01.26-22.58.44:082][615]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap.LVL_MainMenuMap to /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap (0.000691s)
+[2025.01.26-22.58.44:091][615]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.01.26-22.58.44:092][615]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-22.58.44:093][615]LogPlayLevel: PIE: World Init took: (0.000774s)
+[2025.01.26-22.58.44:134][615]LogAudio: Display: Creating Audio Device:                 Id: 54, Scope: Unique, Realtime: True
+[2025.01.26-22.58.44:134][615]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.26-22.58.44:134][615]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.26-22.58.44:134][615]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.26-22.58.44:134][615]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.26-22.58.44:134][615]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.26-22.58.44:134][615]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.26-22.58.44:134][615]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.26-22.58.44:134][615]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.26-22.58.44:134][615]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.26-22.58.44:134][615]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.26-22.58.44:134][615]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.26-22.58.44:135][615]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.26-22.58.44:152][615]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.01.26-22.58.44:152][615]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.26-22.58.44:152][615]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.26-22.58.44:152][615]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.26-22.58.44:153][615]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=54
+[2025.01.26-22.58.44:153][615]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=54
+[2025.01.26-22.58.44:155][615]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=54
+[2025.01.26-22.58.44:155][615]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=54
+[2025.01.26-22.58.44:155][615]LogInit: FAudioDevice initialized with ID 54.
+[2025.01.26-22.58.44:155][615]LogAudio: Display: Audio Device (ID: 54) registered with world 'LVL_MainMenuMap'.
+[2025.01.26-22.58.44:155][615]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 54
+[2025.01.26-22.58.44:157][615]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-22.58.44:157][615]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap up for play (max tick rate 0) at 2025.01.26-14.58.44
+[2025.01.26-22.58.44:157][615]LogWorld: Bringing up level for play took: 0.000229
+[2025.01.26-22.58.44:197][615]PIE: Server logged in
+[2025.01.26-22.58.44:197][615]PIE: Play in editor total start time 0.129 seconds.
+[2025.01.26-22.58.49:267][219]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/BubblesFromTheDeep/Levels/LVL_Credits"
+[2025.01.26-22.58.49:267][219]LogNet: Browse: /Game/BubblesFromTheDeep/Levels/LVL_Credits
+[2025.01.26-22.58.49:267][219]LogLoad: LoadMap: /Game/BubblesFromTheDeep/Levels/LVL_Credits
+[2025.01.26-22.58.49:267][219]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.58.49:267][219]LogWorld: UWorld::CleanupWorld for LVL_MainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-22.58.49:267][219]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.58.49:267][219]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-22.58.49:267][219]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-22.58.49:311][219]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.26-22.58.49:312][219]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.01.26-22.58.49:320][219]LogAudio: Display: Audio Device (ID: 54) registered with world 'LVL_Credits'.
+[2025.01.26-22.58.49:320][219]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-22.58.49:320][219]LogPlayLevel: PIE: World Init took: (0.000684s)
+[2025.01.26-22.58.49:320][219]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-22.58.49:320][219]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_Credits.LVL_Credits up for play (max tick rate 0) at 2025.01.26-14.58.49
+[2025.01.26-22.58.49:320][219]LogWorld: Bringing up level for play took: 0.000244
+[2025.01.26-22.58.49:322][219]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.01.26-22.58.49:322][219]LogLoad: Took 0.055619 seconds to LoadMap(/Game/BubblesFromTheDeep/Levels/LVL_Credits)
+[2025.01.26-22.58.49:322][219]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/BubblesFromTheDeep/Levels/LVL_Credits
+[2025.01.26-22.58.53:725][747]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap"
+[2025.01.26-22.58.53:725][747]LogNet: Browse: /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap
+[2025.01.26-22.58.53:725][747]LogLoad: LoadMap: /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap
+[2025.01.26-22.58.53:725][747]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_Credits
+[2025.01.26-22.58.53:725][747]LogWorld: UWorld::CleanupWorld for LVL_Credits, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-22.58.53:725][747]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.58.53:725][747]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-22.58.53:725][747]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-22.58.53:760][747]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.26-22.58.53:762][747]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.01.26-22.58.53:763][747]LogPlayLevel: Creating play world package: /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.58.53:765][747]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000740s)
+[2025.01.26-22.58.53:765][747]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap.LVL_MainMenuMap to /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap (0.000784s)
+[2025.01.26-22.58.53:765][747]LogAudio: Display: Audio Device (ID: 54) registered with world 'LVL_MainMenuMap'.
+[2025.01.26-22.58.53:765][747]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-22.58.53:766][747]LogPlayLevel: PIE: World Init took: (0.000812s)
+[2025.01.26-22.58.53:766][747]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-22.58.53:766][747]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap up for play (max tick rate 0) at 2025.01.26-14.58.53
+[2025.01.26-22.58.53:766][747]LogWorld: Bringing up level for play took: 0.000239
+[2025.01.26-22.58.53:766][747]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.01.26-22.58.53:767][747]LogLoad: Took 0.041973 seconds to LoadMap(/Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap)
+[2025.01.26-22.58.53:767][747]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.59.14:657][253]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/BubblesFromTheDeep/Levels/LVL_Credits"
+[2025.01.26-22.59.14:657][253]LogNet: Browse: /Game/BubblesFromTheDeep/Levels/LVL_Credits
+[2025.01.26-22.59.14:657][253]LogLoad: LoadMap: /Game/BubblesFromTheDeep/Levels/LVL_Credits
+[2025.01.26-22.59.14:657][253]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.59.14:658][253]LogWorld: UWorld::CleanupWorld for LVL_MainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-22.59.14:658][253]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.59.14:658][253]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-22.59.14:658][253]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-22.59.14:694][253]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.26-22.59.14:695][253]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.01.26-22.59.14:703][253]LogAudio: Display: Audio Device (ID: 54) registered with world 'LVL_Credits'.
+[2025.01.26-22.59.14:703][253]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-22.59.14:704][253]LogPlayLevel: PIE: World Init took: (0.000679s)
+[2025.01.26-22.59.14:704][253]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-22.59.14:704][253]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_Credits.LVL_Credits up for play (max tick rate 0) at 2025.01.26-14.59.14
+[2025.01.26-22.59.14:704][253]LogWorld: Bringing up level for play took: 0.000246
+[2025.01.26-22.59.14:704][253]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.01.26-22.59.14:705][253]LogLoad: Took 0.047467 seconds to LoadMap(/Game/BubblesFromTheDeep/Levels/LVL_Credits)
+[2025.01.26-22.59.14:705][253]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/BubblesFromTheDeep/Levels/LVL_Credits
+[2025.01.26-22.59.15:691][371]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap"
+[2025.01.26-22.59.15:691][371]LogNet: Browse: /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap
+[2025.01.26-22.59.15:691][371]LogLoad: LoadMap: /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap
+[2025.01.26-22.59.15:691][371]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_Credits
+[2025.01.26-22.59.15:691][371]LogWorld: UWorld::CleanupWorld for LVL_Credits, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-22.59.15:691][371]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.59.15:691][371]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-22.59.15:691][371]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-22.59.15:724][371]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.26-22.59.15:725][371]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.01.26-22.59.15:726][371]LogPlayLevel: Creating play world package: /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.59.15:727][371]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000645s)
+[2025.01.26-22.59.15:727][371]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap.LVL_MainMenuMap to /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap (0.000682s)
+[2025.01.26-22.59.15:727][371]LogAudio: Display: Audio Device (ID: 54) registered with world 'LVL_MainMenuMap'.
+[2025.01.26-22.59.15:727][371]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-22.59.15:728][371]LogPlayLevel: PIE: World Init took: (0.000645s)
+[2025.01.26-22.59.15:728][371]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-22.59.15:728][371]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap up for play (max tick rate 0) at 2025.01.26-14.59.15
+[2025.01.26-22.59.15:728][371]LogWorld: Bringing up level for play took: 0.000204
+[2025.01.26-22.59.15:728][371]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.01.26-22.59.15:729][371]LogLoad: Took 0.038026 seconds to LoadMap(/Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap)
+[2025.01.26-22.59.15:729][371]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.59.21:968][711]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-22.59.21:968][711]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-22.59.21:968][711]LogWorld: UWorld::CleanupWorld for LVL_MainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-22.59.21:968][711]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.59.21:969][711]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-22.59.21:969][711]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-22.59.21:971][711]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.26-22.59.21:972][711]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-22.59.21:986][711]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-22.59.21:986][711]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 54
+[2025.01.26-22.59.21:986][711]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=54
+[2025.01.26-22.59.21:987][711]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=54
+[2025.01.26-22.59.21:991][711]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.01.26-22.59.22:049][712]LogPlayLevel: Display: Destroying online subsystem :Context_77
+[2025.01.26-22.59.48:855][ 41]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10427.538086
+[2025.01.26-22.59.49:855][ 44]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.26-22.59.49:855][ 44]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10428.205078, Update Interval: 317.615295
+[2025.01.26-23.01.26:296][946]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 C:\Users\troop\Desktop\Archived\GameModels\Sounds\CreditsMusic.wav)
+[2025.01.26-23.01.26:305][946]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave CreditsMusic...
+[2025.01.26-23.01.26:350][946]LogAudio: Display: Chunk stats for (SoundWave /Game/BubblesFromTheDeep/MenuScreens_UI_/CreditsMusic.CreditsMusic: Duration=0.00 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=3, Chunk0=28 bytes, Chunk1=261725 bytes, ChunkN=80267)
+[2025.01.26-23.01.26:352][946]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave CreditsMusic...
+[2025.01.26-23.01.26:400][947]LogAudio: Display: Chunk stats for (SoundWave /Game/BubblesFromTheDeep/MenuScreens_UI_/CreditsMusic.CreditsMusic: Duration=0.00 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=3, Chunk0=28 bytes, Chunk1=261725 bytes, ChunkN=80267)
+[2025.01.26-23.01.31:434][433]LogContentBrowser: Deferred new asset file creation: TitleMusic1
+[2025.01.26-23.01.31:450][433]LogContentBrowser: Creating deferred item: TitleMusic1
+[2025.01.26-23.01.31:462][434]LogContentBrowser: Renaming the item being created (Deferred Item: TitleMusic1).
+[2025.01.26-23.01.39:815][420]LogContentBrowser: Attempting asset rename: TitleMusic1 -> MCreditsMusic
+[2025.01.26-23.01.39:818][420]LogContentBrowser: End creating deferred item TitleMusic1
+[2025.01.26-23.01.51:851][745]LogContentBrowser: Attempting asset rename: TitleMusic -> M_TitleMusic
+[2025.01.26-23.01.51:873][745]LogMetaData: Removing '/Game/BubblesFromTheDeep/MenuScreens_UI_/M_TitleMusic.M_TitleMusic:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/BubblesFromTheDeep/MenuScreens_UI_/TitleMusic.PackageMetaData'
+[2025.01.26-23.01.51:890][745]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.26-23.01.51:915][745]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BubblesFromTheDeep/MenuScreens_UI_/M_TitleMusic] ([1] browsable assets)...
+[2025.01.26-23.01.51:915][745]OBJ SavePackage: Finished generating thumbnails for package [/Game/BubblesFromTheDeep/MenuScreens_UI_/M_TitleMusic]
+[2025.01.26-23.01.51:917][745]LogSavePackage: Moving output files for package: /Game/BubblesFromTheDeep/MenuScreens_UI_/M_TitleMusic
+[2025.01.26-23.01.51:917][745]LogSavePackage: Moving '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Saved/M_TitleMusic765A269844C0488F43A3F5B9616BEAF8.tmp' to '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Content/BubblesFromTheDeep/MenuScreens_UI_/M_TitleMusic.uasset'
+[2025.01.26-23.01.51:930][745]LogFileHelpers: InternalPromptForCheckoutAndSave took 39.118 ms (total: 1.32 sec)
+[2025.01.26-23.01.51:948][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.01.26-23.01.51:959][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.01.26-23.01.51:972][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.01.26-23.01.52:000][745]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.26-23.01.52:000][745]LogContentValidation: Enabled validators:
+[2025.01.26-23.01.52:000][745]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.26-23.01.52:000][745]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.26-23.01.52:000][745]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.26-23.01.52:000][745]LogContentValidation: Display: Validating asset /Game/BubblesFromTheDeep/MenuScreens_UI_/M_TitleMusic.M_TitleMusic
+[2025.01.26-23.01.52:000][745]AssetCheck: /Game/BubblesFromTheDeep/MenuScreens_UI_/M_TitleMusic Validating asset
+[2025.01.26-23.01.56:012][186]LogContentBrowser: Attempting asset rename: MCreditsMusic -> M_CreditsMusic
+[2025.01.26-23.01.56:030][186]LogMetaData: Removing '/Game/BubblesFromTheDeep/MenuScreens_UI_/M_CreditsMusic.M_CreditsMusic:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/BubblesFromTheDeep/MenuScreens_UI_/MCreditsMusic.PackageMetaData'
+[2025.01.26-23.01.56:032][186]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.26-23.01.56:057][186]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BubblesFromTheDeep/MenuScreens_UI_/M_CreditsMusic] ([1] browsable assets)...
+[2025.01.26-23.01.56:057][186]OBJ SavePackage: Finished generating thumbnails for package [/Game/BubblesFromTheDeep/MenuScreens_UI_/M_CreditsMusic]
+[2025.01.26-23.01.56:058][186]LogSavePackage: Moving output files for package: /Game/BubblesFromTheDeep/MenuScreens_UI_/M_CreditsMusic
+[2025.01.26-23.01.56:058][186]LogSavePackage: Moving '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Saved/M_CreditsMusic2516A0C649A4F6912B3B338C7EC29621.tmp' to '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Content/BubblesFromTheDeep/MenuScreens_UI_/M_CreditsMusic.uasset'
+[2025.01.26-23.01.56:072][186]LogFileHelpers: InternalPromptForCheckoutAndSave took 39.952 ms (total: 1.36 sec)
+[2025.01.26-23.01.56:082][186]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.01.26-23.01.56:093][186]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.01.26-23.01.56:101][186]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2025.01.26-23.01.56:129][186]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.26-23.01.56:129][186]LogContentValidation: Enabled validators:
+[2025.01.26-23.01.56:129][186]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.26-23.01.56:129][186]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.26-23.01.56:129][186]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.26-23.01.56:129][186]LogContentValidation: Display: Validating asset /Game/BubblesFromTheDeep/MenuScreens_UI_/M_CreditsMusic.M_CreditsMusic
+[2025.01.26-23.01.56:129][186]AssetCheck: /Game/BubblesFromTheDeep/MenuScreens_UI_/M_CreditsMusic Validating asset
+[2025.01.26-23.02.01:059][744]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/BubblesFromTheDeep/MenuScreens_UI_/M_CreditsMusic.M_CreditsMusic
+[2025.01.26-23.02.12:694][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.01.26-23.02.14:600][260]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.26-23.02.14:618][260]LogPlayLevel: [PlayLevel] Compiling MainMenu before play...
+[2025.01.26-23.02.14:648][260]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.01.26-23.02.14:649][260]LogPlayLevel: PlayLevel: Blueprint regeneration took 32 ms (1 blueprints)
+[2025.01.26-23.02.14:649][260]LogPlayLevel: Display: Creating online subsystem for client :Context_78
+[2025.01.26-23.02.14:652][260]LogOnline: OSS: Created online subsystem instance for: :Context_78
+[2025.01.26-23.02.14:659][261]LogPlayLevel: Creating play world package: /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-23.02.14:660][261]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000865s)
+[2025.01.26-23.02.14:660][261]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap.LVL_MainMenuMap to /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap (0.000898s)
+[2025.01.26-23.02.14:667][261]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.01.26-23.02.14:668][261]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-23.02.14:669][261]LogPlayLevel: PIE: World Init took: (0.000912s)
+[2025.01.26-23.02.14:706][261]LogAudio: Display: Creating Audio Device:                 Id: 55, Scope: Unique, Realtime: True
+[2025.01.26-23.02.14:706][261]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.26-23.02.14:706][261]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.26-23.02.14:706][261]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.26-23.02.14:706][261]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.26-23.02.14:706][261]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.26-23.02.14:706][261]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.26-23.02.14:706][261]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.26-23.02.14:706][261]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.26-23.02.14:706][261]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.26-23.02.14:706][261]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.26-23.02.14:706][261]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.26-23.02.14:708][261]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.26-23.02.14:725][261]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.01.26-23.02.14:725][261]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.26-23.02.14:725][261]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.26-23.02.14:725][261]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.26-23.02.14:726][261]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=55
+[2025.01.26-23.02.14:726][261]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=55
+[2025.01.26-23.02.14:727][261]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=55
+[2025.01.26-23.02.14:727][261]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=55
+[2025.01.26-23.02.14:727][261]LogInit: FAudioDevice initialized with ID 55.
+[2025.01.26-23.02.14:727][261]LogAudio: Display: Audio Device (ID: 55) registered with world 'LVL_MainMenuMap'.
+[2025.01.26-23.02.14:727][261]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 55
+[2025.01.26-23.02.14:733][261]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-23.02.14:733][261]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap up for play (max tick rate 0) at 2025.01.26-15.02.14
+[2025.01.26-23.02.14:734][261]LogWorld: Bringing up level for play took: 0.000415
+[2025.01.26-23.02.14:772][261]PIE: Server logged in
+[2025.01.26-23.02.14:772][261]PIE: Play in editor total start time 0.162 seconds.
+[2025.01.26-23.02.17:677][598]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/BubblesFromTheDeep/Levels/LVL_Credits"
+[2025.01.26-23.02.17:677][598]LogNet: Browse: /Game/BubblesFromTheDeep/Levels/LVL_Credits
+[2025.01.26-23.02.17:677][598]LogLoad: LoadMap: /Game/BubblesFromTheDeep/Levels/LVL_Credits
+[2025.01.26-23.02.17:677][598]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-23.02.17:678][598]LogWorld: UWorld::CleanupWorld for LVL_MainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-23.02.17:678][598]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-23.02.17:678][598]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-23.02.17:678][598]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-23.02.17:721][598]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.26-23.02.17:722][598]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.01.26-23.02.17:732][598]LogAudio: Display: Audio Device (ID: 55) registered with world 'LVL_Credits'.
+[2025.01.26-23.02.17:732][598]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-23.02.17:732][598]LogPlayLevel: PIE: World Init took: (0.000754s)
+[2025.01.26-23.02.17:732][598]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-23.02.17:732][598]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_Credits.LVL_Credits up for play (max tick rate 0) at 2025.01.26-15.02.17
+[2025.01.26-23.02.17:732][598]LogWorld: Bringing up level for play took: 0.000253
+[2025.01.26-23.02.17:732][598]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.01.26-23.02.17:733][598]LogLoad: Took 0.055763 seconds to LoadMap(/Game/BubblesFromTheDeep/Levels/LVL_Credits)
+[2025.01.26-23.02.17:733][598]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/BubblesFromTheDeep/Levels/LVL_Credits
+[2025.01.26-23.02.22:836][209]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap"
+[2025.01.26-23.02.22:837][209]LogNet: Browse: /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap
+[2025.01.26-23.02.22:837][209]LogLoad: LoadMap: /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap
+[2025.01.26-23.02.22:837][209]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_Credits
+[2025.01.26-23.02.22:837][209]LogWorld: UWorld::CleanupWorld for LVL_Credits, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-23.02.22:837][209]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-23.02.22:837][209]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-23.02.22:837][209]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-23.02.22:881][209]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.26-23.02.22:882][209]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.01.26-23.02.22:883][209]LogPlayLevel: Creating play world package: /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-23.02.22:885][209]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000702s)
+[2025.01.26-23.02.22:885][209]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap.LVL_MainMenuMap to /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap (0.000742s)
+[2025.01.26-23.02.22:885][209]LogAudio: Display: Audio Device (ID: 55) registered with world 'LVL_MainMenuMap'.
+[2025.01.26-23.02.22:885][209]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-23.02.22:885][209]LogPlayLevel: PIE: World Init took: (0.000707s)
+[2025.01.26-23.02.22:885][209]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-23.02.22:885][209]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap up for play (max tick rate 0) at 2025.01.26-15.02.22
+[2025.01.26-23.02.22:885][209]LogWorld: Bringing up level for play took: 0.000223
+[2025.01.26-23.02.22:886][209]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.01.26-23.02.22:887][209]LogLoad: Took 0.049734 seconds to LoadMap(/Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap)
+[2025.01.26-23.02.22:887][209]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-23.03.19:342][650]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/BubblesFromTheDeep/Levels/LVL_Credits"
+[2025.01.26-23.03.19:342][650]LogNet: Browse: /Game/BubblesFromTheDeep/Levels/LVL_Credits
+[2025.01.26-23.03.19:342][650]LogLoad: LoadMap: /Game/BubblesFromTheDeep/Levels/LVL_Credits
+[2025.01.26-23.03.19:342][650]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-23.03.19:343][650]LogWorld: UWorld::CleanupWorld for LVL_MainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-23.03.19:343][650]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-23.03.19:343][650]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-23.03.19:343][650]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-23.03.19:372][650]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.26-23.03.19:373][650]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.01.26-23.03.19:381][650]LogAudio: Display: Audio Device (ID: 55) registered with world 'LVL_Credits'.
+[2025.01.26-23.03.19:381][650]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-23.03.19:382][650]LogPlayLevel: PIE: World Init took: (0.000792s)
+[2025.01.26-23.03.19:382][650]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-23.03.19:382][650]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_Credits.LVL_Credits up for play (max tick rate 0) at 2025.01.26-15.03.19
+[2025.01.26-23.03.19:382][650]LogWorld: Bringing up level for play took: 0.000272
+[2025.01.26-23.03.19:382][650]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.01.26-23.03.19:383][650]LogLoad: Took 0.040500 seconds to LoadMap(/Game/BubblesFromTheDeep/Levels/LVL_Credits)
+[2025.01.26-23.03.19:383][650]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/BubblesFromTheDeep/Levels/LVL_Credits
+[2025.01.26-23.03.42:679][445]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap"
+[2025.01.26-23.03.42:679][445]LogNet: Browse: /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap
+[2025.01.26-23.03.42:679][445]LogLoad: LoadMap: /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap
+[2025.01.26-23.03.42:679][445]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_Credits
+[2025.01.26-23.03.42:680][445]LogWorld: UWorld::CleanupWorld for LVL_Credits, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-23.03.42:680][445]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-23.03.42:680][445]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-23.03.42:680][445]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-23.03.42:713][445]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.26-23.03.42:715][445]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.01.26-23.03.42:717][445]LogPlayLevel: Creating play world package: /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-23.03.42:717][445]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000733s)
+[2025.01.26-23.03.42:717][445]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap.LVL_MainMenuMap to /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap (0.000774s)
+[2025.01.26-23.03.42:717][445]LogAudio: Display: Audio Device (ID: 55) registered with world 'LVL_MainMenuMap'.
+[2025.01.26-23.03.42:717][445]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-23.03.42:719][445]LogPlayLevel: PIE: World Init took: (0.000731s)
+[2025.01.26-23.03.42:719][445]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-23.03.42:719][445]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap up for play (max tick rate 0) at 2025.01.26-15.03.42
+[2025.01.26-23.03.42:719][445]LogWorld: Bringing up level for play took: 0.000230
+[2025.01.26-23.03.42:719][445]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.01.26-23.03.42:720][445]LogLoad: Took 0.040824 seconds to LoadMap(/Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap)
+[2025.01.26-23.03.42:720][445]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-23.03.45:737][803]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-23.03.45:737][803]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-23.03.45:737][803]LogWorld: UWorld::CleanupWorld for LVL_MainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-23.03.45:737][803]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-23.03.45:737][803]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-23.03.45:737][803]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-23.03.45:739][803]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.26-23.03.45:741][803]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-23.03.45:749][803]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-23.03.45:749][803]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 55
+[2025.01.26-23.03.45:749][803]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=55
+[2025.01.26-23.03.45:751][803]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=55
+[2025.01.26-23.03.45:755][803]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.01.26-23.03.45:812][804]LogPlayLevel: Display: Destroying online subsystem :Context_78
+[2025.01.26-23.03.48:151][ 71]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.26-23.03.48:219][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.01.26-23.03.48:224][ 71]LogSavePackage: Moving output files for package: /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap
+[2025.01.26-23.03.48:227][ 71]LogSavePackage: Moving '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Saved/LVL_MainMenuMapACA694F9429285FDC2C9F692FF135B57.tmp' to '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Content/BubblesFromTheDeep/Levels/LVL_MainMenuMap.umap'
+[2025.01.26-23.03.48:240][ 71]LogFileHelpers: Saving map 'LVL_MainMenuMap' took 0.066
+[2025.01.26-23.03.48:249][ 71]LogFileHelpers: InternalPromptForCheckoutAndSave took 99.042 ms (total: 1.46 sec)
+[2025.01.26-23.03.48:278][ 71]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.26-23.03.48:278][ 71]LogContentValidation: Enabled validators:
+[2025.01.26-23.03.48:278][ 71]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.26-23.03.48:278][ 71]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.26-23.03.48:278][ 71]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.26-23.03.48:278][ 71]LogContentValidation: Display: Validating asset /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap.LVL_MainMenuMap
+[2025.01.26-23.03.48:278][ 71]AssetCheck: /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap Validating asset
