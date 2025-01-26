@@ -250,9 +250,11 @@
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\BubblesFromTheDeep\Enemies\Private\DrossSiege.cpp" />
+    <ClCompile Include="..\..\Source\BubblesFromTheDeep\Private\DrownedGameSubsystem.cpp" />
     <ClCompile Include="..\..\Source\BubblesFromTheDeep\Turrets\Private\TurretAbilityComponent.cpp" />
     <ClCompile Include="..\..\Source\BubblesFromTheDeep\Turrets\Private\TurretAttackAbilityComponent.cpp" />
     <ClInclude Include="..\..\Source\BubblesFromTheDeep\Enemies\Public\DrossSiege.h" />
+    <ClInclude Include="..\..\Source\BubblesFromTheDeep\Public\DrownedGameSubsystem.h" />
     <ClInclude Include="..\..\Source\BubblesFromTheDeep\Turrets\Public\TurretAbilityComponent.h" />
     <ClInclude Include="..\..\Source\BubblesFromTheDeep\Turrets\Public\TurretAttackAbilityComponent.h" />
     <None Include="..\..\BubblesFromTheDeep.uproject"/>

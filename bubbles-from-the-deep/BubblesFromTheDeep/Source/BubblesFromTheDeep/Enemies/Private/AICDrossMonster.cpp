@@ -45,7 +45,6 @@ void AAICDrossMonster::BeginPlay()
 {
 	Super::BeginPlay();
 	SetTargetSlot(AGameBoard::GetGameBoard()->GetTargetSlot());
-	Start();
 }
 
 // -----------------------------------------------------------------------------
