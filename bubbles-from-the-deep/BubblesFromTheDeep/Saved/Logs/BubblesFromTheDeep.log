@@ -7030,3 +7030,178 @@ Script Stack (1 frames) :
 [2025.01.26-23.34.10:377][212]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.01.26-23.34.10:377][212]LogContentValidation: Display: Validating asset /Game/BubblesFromTheDeep/MenuScreens(UI)/MainMenu.MainMenu
 [2025.01.26-23.34.10:378][212]AssetCheck: /Game/BubblesFromTheDeep/MenuScreens(UI)/MainMenu Validating asset
+[2025.01.26-23.37.07:274][501]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12665.353516
+[2025.01.26-23.37.08:265][504]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.26-23.37.08:265][504]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12666.017578, Update Interval: 322.180237
+[2025.01.26-23.39.19:613][977]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.26-23.39.19:639][977]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BubblesFromTheDeep/MenuScreens(UI)/MainMenu] ([2] browsable assets)...
+[2025.01.26-23.39.19:639][977]OBJ SavePackage: Finished generating thumbnails for package [/Game/BubblesFromTheDeep/MenuScreens(UI)/MainMenu]
+[2025.01.26-23.39.19:647][977]LogSavePackage: Moving output files for package: /Game/BubblesFromTheDeep/MenuScreens(UI)/MainMenu
+[2025.01.26-23.39.19:650][977]LogSavePackage: Moving '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Saved/MainMenu40C7088C4E04F4AF52CFF4AB4B7AF8F1.tmp' to '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Content/BubblesFromTheDeep/MenuScreens(UI)/MainMenu.uasset'
+[2025.01.26-23.39.19:667][977]LogFileHelpers: InternalPromptForCheckoutAndSave took 53.040 ms (total: 1.67 sec)
+[2025.01.26-23.39.19:699][977]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.26-23.39.19:699][977]LogContentValidation: Enabled validators:
+[2025.01.26-23.39.19:699][977]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.26-23.39.19:699][977]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.26-23.39.19:699][977]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.26-23.39.19:699][977]LogContentValidation: Display: Validating asset /Game/BubblesFromTheDeep/MenuScreens(UI)/MainMenu.MainMenu
+[2025.01.26-23.39.19:699][977]AssetCheck: /Game/BubblesFromTheDeep/MenuScreens(UI)/MainMenu Validating asset
+[2025.01.26-23.39.46:215][219]LogSlate: Window 'M_CreditsMusic' being destroyed
+[2025.01.26-23.39.46:225][219]LogSlate: Window 'M_CreditsMusic' being destroyed
+[2025.01.26-23.39.46:275][219]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-23.39.46:275][219]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-23.39.46:290][219]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-23.39.46:290][219]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-23.39.46:375][219]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-23.39.46:375][219]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-23.39.46:386][219]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-23.39.46:386][219]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-23.39.46:537][219]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.01.26-23.39.47:424][324]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.01.26-23.40.09:175][324]LogSlate: Window 'Save Content' being destroyed
+[2025.01.26-23.40.09:188][324]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.26-23.40.09:228][324]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BubblesFromTheDeep/MenuScreens_UI_/ButtonPress] ([1] browsable assets)...
+[2025.01.26-23.40.09:228][324]OBJ SavePackage: Finished generating thumbnails for package [/Game/BubblesFromTheDeep/MenuScreens_UI_/ButtonPress]
+[2025.01.26-23.40.09:231][324]LogSavePackage: Moving output files for package: /Game/BubblesFromTheDeep/MenuScreens_UI_/ButtonPress
+[2025.01.26-23.40.09:232][324]LogSavePackage: Moving '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Saved/ButtonPress6BD7C596480361EE117F5DAB9C803B1C.tmp' to '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Content/BubblesFromTheDeep/MenuScreens_UI_/ButtonPress.uasset'
+[2025.01.26-23.40.09:237][324]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BubblesFromTheDeep/MenuScreens(UI)/CreditsMenu] ([2] browsable assets)...
+[2025.01.26-23.40.09:237][324]OBJ SavePackage: Finished generating thumbnails for package [/Game/BubblesFromTheDeep/MenuScreens(UI)/CreditsMenu]
+[2025.01.26-23.40.09:241][324]LogSavePackage: Moving output files for package: /Game/BubblesFromTheDeep/MenuScreens(UI)/CreditsMenu
+[2025.01.26-23.40.09:245][324]LogSavePackage: Moving '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Saved/CreditsMenuACA5D7684941737CE22C33AD34EAEED7.tmp' to '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Content/BubblesFromTheDeep/MenuScreens(UI)/CreditsMenu.uasset'
+[2025.01.26-23.40.09:250][324]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BubblesFromTheDeep/MenuScreens_UI_/CreditsMusic] ([1] browsable assets)...
+[2025.01.26-23.40.09:250][324]OBJ SavePackage: Finished generating thumbnails for package [/Game/BubblesFromTheDeep/MenuScreens_UI_/CreditsMusic]
+[2025.01.26-23.40.09:255][324]LogSavePackage: Moving output files for package: /Game/BubblesFromTheDeep/MenuScreens_UI_/CreditsMusic
+[2025.01.26-23.40.09:255][324]LogSavePackage: Moving '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Saved/CreditsMusic6D8F662649867CEC74E2AABA570DAA43.tmp' to '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Content/BubblesFromTheDeep/MenuScreens_UI_/CreditsMusic.uasset'
+[2025.01.26-23.40.09:259][324]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BubblesFromTheDeep/MenuScreens_UI_/M_CreditsMusic] ([1] browsable assets)...
+[2025.01.26-23.40.09:259][324]OBJ SavePackage: Finished generating thumbnails for package [/Game/BubblesFromTheDeep/MenuScreens_UI_/M_CreditsMusic]
+[2025.01.26-23.40.09:260][324]LogSavePackage: Moving output files for package: /Game/BubblesFromTheDeep/MenuScreens_UI_/M_CreditsMusic
+[2025.01.26-23.40.09:263][324]LogSavePackage: Moving '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Saved/M_CreditsMusicDCA46D3649B32A482F490BA66FF65E88.tmp' to '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Content/BubblesFromTheDeep/MenuScreens_UI_/M_CreditsMusic.uasset'
+[2025.01.26-23.40.09:268][324]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BubblesFromTheDeep/MenuScreens_UI_/SelectingUnit] ([1] browsable assets)...
+[2025.01.26-23.40.09:268][324]OBJ SavePackage: Finished generating thumbnails for package [/Game/BubblesFromTheDeep/MenuScreens_UI_/SelectingUnit]
+[2025.01.26-23.40.09:270][324]LogSavePackage: Moving output files for package: /Game/BubblesFromTheDeep/MenuScreens_UI_/SelectingUnit
+[2025.01.26-23.40.09:270][324]LogSavePackage: Moving '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Saved/SelectingUnit76A652494DC9BF0CC0BB7AB7570F366D.tmp' to '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Content/BubblesFromTheDeep/MenuScreens_UI_/SelectingUnit.uasset'
+[2025.01.26-23.40.09:273][324]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BubblesFromTheDeep/MenuScreens_UI_/TitleTheme] ([1] browsable assets)...
+[2025.01.26-23.40.09:274][324]OBJ SavePackage: Finished generating thumbnails for package [/Game/BubblesFromTheDeep/MenuScreens_UI_/TitleTheme]
+[2025.01.26-23.40.09:284][324]LogSavePackage: Moving output files for package: /Game/BubblesFromTheDeep/MenuScreens_UI_/TitleTheme
+[2025.01.26-23.40.09:285][324]LogSavePackage: Moving '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Saved/TitleThemeEE9E8B5D484BC424E3FAC7932C92405D.tmp' to '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Content/BubblesFromTheDeep/MenuScreens_UI_/TitleTheme.uasset'
+[2025.01.26-23.40.09:301][324]LogFileHelpers: InternalPromptForCheckoutAndSave took 114.562 ms (total: 1.78 sec)
+[2025.01.26-23.40.09:340][324]LogStall: Shutdown...
+[2025.01.26-23.40.09:345][324]LogStall: Shutdown complete.
+[2025.01.26-23.40.09:435][324]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-23.40.09:435][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-23.40.09:615][324]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.01.26-23.40.09:615][324]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-23.40.09:615][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-23.40.09:753][324]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.01.26-23.40.09:753][324]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-23.40.09:753][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-23.40.09:891][324]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-23.40.09:891][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-23.40.09:997][324]LogSlate: Window 'BubblesFromTheDeep - Unreal Editor' being destroyed
+[2025.01.26-23.40.09:998][324]LogWindowsTextInputMethodSystem: Activated input method: English (Canada) - (Keyboard).
+[2025.01.26-23.40.10:161][324]LogContentValidation: Display: Starting to validate 6 assets
+[2025.01.26-23.40.10:161][324]LogContentValidation: Enabled validators:
+[2025.01.26-23.40.10:161][324]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.26-23.40.10:161][324]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.26-23.40.10:161][324]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.26-23.40.10:161][324]LogContentValidation: Display: Validating asset /Game/BubblesFromTheDeep/MenuScreens_UI_/ButtonPress.ButtonPress
+[2025.01.26-23.40.10:161][324]AssetCheck: /Game/BubblesFromTheDeep/MenuScreens_UI_/ButtonPress Validating asset
+[2025.01.26-23.40.10:161][324]LogContentValidation: Display: Validating asset /Game/BubblesFromTheDeep/MenuScreens(UI)/CreditsMenu.CreditsMenu
+[2025.01.26-23.40.10:163][324]AssetCheck: /Game/BubblesFromTheDeep/MenuScreens(UI)/CreditsMenu Validating asset
+[2025.01.26-23.40.10:163][324]LogContentValidation: Display: Validating asset /Game/BubblesFromTheDeep/MenuScreens_UI_/CreditsMusic.CreditsMusic
+[2025.01.26-23.40.10:163][324]AssetCheck: /Game/BubblesFromTheDeep/MenuScreens_UI_/CreditsMusic Validating asset
+[2025.01.26-23.40.10:163][324]LogContentValidation: Display: Validating asset /Game/BubblesFromTheDeep/MenuScreens_UI_/M_CreditsMusic.M_CreditsMusic
+[2025.01.26-23.40.10:163][324]AssetCheck: /Game/BubblesFromTheDeep/MenuScreens_UI_/M_CreditsMusic Validating asset
+[2025.01.26-23.40.10:163][324]LogContentValidation: Display: Validating asset /Game/BubblesFromTheDeep/MenuScreens_UI_/SelectingUnit.SelectingUnit
+[2025.01.26-23.40.10:163][324]AssetCheck: /Game/BubblesFromTheDeep/MenuScreens_UI_/SelectingUnit Validating asset
+[2025.01.26-23.40.10:163][324]LogContentValidation: Display: Validating asset /Game/BubblesFromTheDeep/MenuScreens_UI_/TitleTheme.TitleTheme
+[2025.01.26-23.40.10:163][324]AssetCheck: /Game/BubblesFromTheDeep/MenuScreens_UI_/TitleTheme Validating asset
+[2025.01.26-23.40.10:175][324]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.01.26-23.40.10:204][324]Cmd: QUIT_EDITOR
+[2025.01.26-23.40.10:204][324]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.01.26-23.40.10:207][325]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.01.26-23.40.10:209][325]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.01.26-23.40.10:209][325]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.01.26-23.40.10:210][325]LogWorld: UWorld::CleanupWorld for LVL_MainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-23.40.10:210][325]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-23.40.10:210][325]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-23.40.10:210][325]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-23.40.10:228][325]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.01.26-23.40.10:248][325]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-23.40.10:248][325]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-23.40.10:250][325]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-23.40.10:250][325]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-23.40.10:251][325]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-23.40.10:251][325]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-23.40.10:253][325]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-23.40.10:253][325]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-23.40.10:254][325]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-23.40.10:254][325]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-23.40.10:255][325]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-23.40.10:256][325]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-23.40.10:258][325]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-23.40.10:258][325]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-23.40.10:259][325]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-23.40.10:259][325]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-23.40.10:260][325]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-23.40.10:260][325]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-23.40.10:261][325]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-23.40.10:261][325]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-23.40.10:263][325]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-23.40.10:264][325]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-23.40.10:453][325]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.01.26-23.40.10:465][325]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2025.01.26-23.40.10:465][325]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2025.01.26-23.40.10:465][325]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2025.01.26-23.40.10:828][325]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.01.26-23.40.10:828][325]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.01.26-23.40.10:828][325]LogAudio: Display: Audio Device unregistered from world 'LVL_MainMenuMap'.
+[2025.01.26-23.40.10:828][325]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.01.26-23.40.10:828][325]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.01.26-23.40.10:829][325]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.01.26-23.40.10:837][325]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.01.26-23.40.10:837][325]LogAudio: Display: Audio Device Manager Shutdown
+[2025.01.26-23.40.10:843][325]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.01.26-23.40.10:843][325]LogExit: Preparing to exit.
+[2025.01.26-23.40.10:873][325]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.01.26-23.40.10:878][325]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.01.26-23.40.10:879][325]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.01.26-23.40.10:881][325]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.01.26-23.40.10:881][325]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.01.26-23.40.10:881][325]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.01.26-23.40.10:881][325]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.01.26-23.40.10:881][325]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.01.26-23.40.10:881][325]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.01.26-23.40.10:881][325]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.01.26-23.40.10:881][325]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.01.26-23.40.10:881][325]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.01.26-23.40.10:881][325]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.01.26-23.40.10:881][325]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.01.26-23.40.10:881][325]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.01.26-23.40.10:881][325]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.01.26-23.40.10:881][325]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.01.26-23.40.10:881][325]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.01.26-23.40.10:881][325]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.01.26-23.40.10:881][325]LogPython: Display: Object '/Engine/PythonTypes.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.01.26-23.40.10:881][325]LogPython: Display: Object '/Engine/PythonTypes.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.01.26-23.40.10:881][325]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.01.26-23.40.11:383][325]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.01.26-23.40.11:428][325]LogExit: Editor shut down
+[2025.01.26-23.40.11:433][325]LogExit: Transaction tracking system shut down
+[2025.01.26-23.40.11:767][325]LogExit: Object subsystem successfully closed.
+[2025.01.26-23.40.11:831][325]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.01.26-23.40.12:511][325]MemoryProfiler: Shutdown
+[2025.01.26-23.40.12:512][325]NetworkingProfiler: Shutdown
+[2025.01.26-23.40.12:512][325]LoadingProfiler: Shutdown
+[2025.01.26-23.40.12:512][325]TimingProfiler: Shutdown
+[2025.01.26-23.40.12:788][325]LogOpenImageDenoise: OIDN shutting down
+[2025.01.26-23.40.13:193][325]RenderDocPlugin: plugin has been unloaded.
+[2025.01.26-23.40.13:219][325]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 2 outstanding Http Requests:
+[2025.01.26-23.40.13:219][325]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B52A392C1-4E7D-8EFE-23AD-738EF6D477E3%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.4.4-35576357%2B%2B%2BUE5%2BRelease-5.4&UserID=a806a5c34ad2b50fab43ad90fcfe88e2%7C61e7b1d7e4324bc0875e249be729c75f%7Cc080e7fa-cff1-4597-b341-87fc45716b2e&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.01.26-23.40.13:219][325]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B52A392C1-4E7D-8EFE-23AD-738EF6D477E3%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.4.4-35576357%2B%2B%2BUE5%2BRelease-5.4&UserID=a806a5c34ad2b50fab43ad90fcfe88e2%7C61e7b1d7e4324bc0875e249be729c75f%7Cc080e7fa-cff1-4597-b341-87fc45716b2e&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.01.26-23.40.13:766][325]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.01.26-23.40.13:766][325]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2025.01.26-23.40.13:778][325]LogPakFile: Destroying PakPlatformFile
+[2025.01.26-23.40.14:110][325]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.01.26-23.40.14:156][325]LogExit: Exiting.
+[2025.01.26-23.40.14:187][325]Log file closed, 01/26/25 15:40:14
