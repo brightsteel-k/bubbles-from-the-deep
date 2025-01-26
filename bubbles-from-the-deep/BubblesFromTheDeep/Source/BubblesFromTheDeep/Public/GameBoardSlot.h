@@ -38,10 +38,10 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void SetSocketedTurret(ACoralTurret* NewTurret);
 
-	UFUNCTION(BlueprintCallable)
+	UFUNCTION(BlueprintCallable, BlueprintPure)
 	ACoralTurret* GetSocketedTurret();
 
-	UFUNCTION(BlueprintCallable)
+	UFUNCTION(BlueprintCallable, BlueprintPure)
 	bool HasSocketedTurret();
 
 	UFUNCTION(BlueprintNativeEvent)

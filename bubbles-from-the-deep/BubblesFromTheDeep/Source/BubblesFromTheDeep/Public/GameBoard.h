@@ -43,13 +43,13 @@ public:
 	// Public Methods
 	// -----------------------------------------------------------------------------
 
-	UFUNCTION(BlueprintCallable)
+	UFUNCTION(BlueprintCallable, BlueprintPure)
 	AGameBoardSlot* GetTargetSlot();
 
 	UFUNCTION(BlueprintCallable)
 	void SetTargetSlot(AGameBoardSlot* Slot);
 
-	UFUNCTION(BlueprintCallable)
+	UFUNCTION(BlueprintCallable, BlueprintPure)
 	static AGameBoard* GetGameBoard();
 
 	UFUNCTION(BlueprintCallable)

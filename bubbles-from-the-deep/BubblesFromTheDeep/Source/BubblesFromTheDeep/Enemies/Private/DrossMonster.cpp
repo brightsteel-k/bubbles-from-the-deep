@@ -2,18 +2,15 @@
 
 #include "BubblesFromTheDeep/Enemies/Public/DrossMonster.h"
 
-#include "BubblesFromTheDeep/Enemies/Public/DrossMonsterController.h"
+#include "GameBoard.h"
+#include "BubblesFromTheDeep/Enemies/Public/AICDrossMonster.h"
 
 // -----------------------------------------------------------------------------
 // Class Implementation
 // -----------------------------------------------------------------------------
 
-void ADrossMonster::InitializeEnemy_Implementation(AGameBoardSlot* TargetSlotIn)
+void ADrossMonster::InitializeEnemy_Implementation()
 {
-	SpawnDefaultController();
-	DrossMonsterController = Cast<ADrossMonsterController>(GetController());
-	DrossMonsterController->SetTargetSlot(TargetSlotIn);
-	DrossMonsterController->Start();
 }
 
 // -----------------------------------------------------------------------------
@@ -31,7 +28,7 @@ ADrossMonster::ADrossMonster()
 void ADrossMonster::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	DrossMonsterController = Cast<AAICDrossMonster>(GetController());
 }
 
 // -----------------------------------------------------------------------------

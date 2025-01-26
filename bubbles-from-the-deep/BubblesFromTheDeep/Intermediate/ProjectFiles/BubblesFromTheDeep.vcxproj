@@ -265,11 +265,11 @@
     <ClCompile Include="..\..\Source\BubblesFromTheDeep\Enemies\Private\DrossMonster.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
-    <ClCompile Include="..\..\Source\BubblesFromTheDeep\Enemies\Private\DrossMonsterController.cpp">
+    <ClCompile Include="..\..\Source\BubblesFromTheDeep\Enemies\Private\AICDrossMonster.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClInclude Include="..\..\Source\BubblesFromTheDeep\Enemies\Public\DrossMonster.h"/>
-    <ClInclude Include="..\..\Source\BubblesFromTheDeep\Enemies\Public\DrossMonsterController.h"/>
+    <ClInclude Include="..\..\Source\BubblesFromTheDeep\Enemies\Public\AICDrossMonster.h" />
     <ClCompile Include="..\..\Source\BubblesFromTheDeep\Enemies\Private\DrossSiegeSusbystem.cpp" />
     <ClCompile Include="..\..\Source\BubblesFromTheDeep\Private\CoralTurret.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>

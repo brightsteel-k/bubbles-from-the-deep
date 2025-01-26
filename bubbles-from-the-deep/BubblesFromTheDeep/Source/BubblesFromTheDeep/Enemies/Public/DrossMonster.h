@@ -11,7 +11,7 @@
 // Forward Declarations
 // -----------------------------------------------------------------------------
 
-class ADrossMonsterController;
+class AAICDrossMonster;
 
 // -----------------------------------------------------------------------------
 // Class Definition
@@ -31,9 +31,13 @@ public:
 	// Public Methods
 	// -----------------------------------------------------------------------------
 
+	// TODO: remove?
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-	void InitializeEnemy(AGameBoardSlot* TargetSlotIn);
-	void InitializeEnemy_Implementation(AGameBoardSlot* TargetSlotIn);
+	void InitializeEnemy();
+	void InitializeEnemy_Implementation();
+
+	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+	void EnterAdvancingMode();
 	
 	// Sets default values for this character's properties
 	ADrossMonster();
@@ -47,7 +51,7 @@ protected:
 	// -----------------------------------------------------------------------------
 
 	UPROPERTY(BlueprintReadOnly)
-	ADrossMonsterController* DrossMonsterController;
+	AAICDrossMonster* DrossMonsterController;
 
 	// -----------------------------------------------------------------------------
 	// Protected Methods
