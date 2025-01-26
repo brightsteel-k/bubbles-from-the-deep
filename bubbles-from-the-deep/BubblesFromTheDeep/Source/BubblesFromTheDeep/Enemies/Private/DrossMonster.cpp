@@ -2,7 +2,6 @@
 
 #include "BubblesFromTheDeep/Enemies/Public/DrossMonster.h"
 
-#include "Android/AndroidInputInterface.h"
 #include "BubblesFromTheDeep/Enemies/Public/DrossMonsterController.h"
 
 // -----------------------------------------------------------------------------
@@ -11,7 +10,10 @@
 
 void ADrossMonster::InitializeEnemy_Implementation(AGameBoardSlot* TargetSlotIn)
 {
-	TargetSlot = TargetSlotIn;
+	SpawnDefaultController();
+	DrossMonsterController = Cast<ADrossMonsterController>(GetController());
+	DrossMonsterController->SetTargetSlot(TargetSlotIn);
+	DrossMonsterController->Start();
 }
 
 // -----------------------------------------------------------------------------
@@ -21,7 +23,6 @@ ADrossMonster::ADrossMonster()
 {
 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-	AIControllerClass = ADrossMonsterController::StaticClass();
 }
 
 // -----------------------------------------------------------------------------

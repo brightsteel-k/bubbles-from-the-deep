@@ -11,6 +11,8 @@
     <None Include="..\..\Source\BubblesFromTheDeepEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\BubblesFromTheDeep.sln.DotSettings.user" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -38,16 +40,49 @@
     <ClInclude Include="..\..\Source\BubblesFromTheDeep\BubblesFromTheDeep.h">
       <Filter>Source\BubblesFromTheDeep</Filter>
     </ClInclude>
+    <Filter Include="Source\BubblesFromTheDeep\Enemies">
+      <UniqueIdentifier>{F5498BF2-C823-3DA7-83E0-0A7D1300F69B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\BubblesFromTheDeep\Enemies\Private">
+      <UniqueIdentifier>{4A5C7C99-4BDC-38BE-903C-E694758CE9C6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BubblesFromTheDeep\Enemies\Private\DrossMonster.cpp">
+      <Filter>Source\BubblesFromTheDeep\Enemies\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BubblesFromTheDeep\Enemies\Private\DrossMonsterController.cpp">
+      <Filter>Source\BubblesFromTheDeep\Enemies\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\BubblesFromTheDeep\Enemies\Public">
+      <UniqueIdentifier>{9F20BB19-3860-3A0C-A8D3-49483780BB9A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\BubblesFromTheDeep\Enemies\Public\DrossMonster.h">
+      <Filter>Source\BubblesFromTheDeep\Enemies\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BubblesFromTheDeep\Enemies\Public\DrossMonsterController.h">
+      <Filter>Source\BubblesFromTheDeep\Enemies\Public</Filter>
+    </ClInclude>
     <Filter Include="Source\BubblesFromTheDeep\Private">
       <UniqueIdentifier>{D3452DC1-731D-3FC1-A78C-7F5E071F1BC6}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\BubblesFromTheDeep\Private\CoralTurret.cpp">
+      <Filter>Source\BubblesFromTheDeep\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\BubblesFromTheDeep\Private\GameBoard.cpp">
+      <Filter>Source\BubblesFromTheDeep\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BubblesFromTheDeep\Private\GameBoardSlot.cpp">
       <Filter>Source\BubblesFromTheDeep\Private</Filter>
     </ClCompile>
     <Filter Include="Source\BubblesFromTheDeep\Public">
       <UniqueIdentifier>{26EF633A-D4BE-3E9E-8125-985AF9CB2B4A}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\BubblesFromTheDeep\Public\CoralTurret.h">
+      <Filter>Source\BubblesFromTheDeep\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\BubblesFromTheDeep\Public\GameBoard.h">
+      <Filter>Source\BubblesFromTheDeep\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BubblesFromTheDeep\Public\GameBoardSlot.h">
       <Filter>Source\BubblesFromTheDeep\Public</Filter>
     </ClInclude>
   </ItemGroup>
