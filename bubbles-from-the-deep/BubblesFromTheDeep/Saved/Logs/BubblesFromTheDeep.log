@@ -6877,3 +6877,156 @@ Script Stack (1 frames) :
 [2025.01.26-23.13.21:122][867]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.01.26-23.13.21:122][867]LogContentValidation: Display: Validating asset /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap.LVL_MainMenuMap
 [2025.01.26-23.13.21:122][867]AssetCheck: /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap Validating asset
+[2025.01.26-23.17.54:301][ 67]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11512.645508
+[2025.01.26-23.17.55:301][ 70]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.26-23.17.55:301][ 70]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11513.311523, Update Interval: 333.053375
+[2025.01.26-23.23.21:086][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.01.26-23.23.21:087][ 47]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap' took 0.015
+[2025.01.26-23.23.21:087][ 47]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BubblesFromTheDeep/MenuScreens(UI)/MainMenu] ([2] browsable assets)...
+[2025.01.26-23.23.21:110][ 47]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/BubblesFromTheDeep/MenuScreens(UI)/MainMenu.MainMenu]
+[2025.01.26-23.23.21:110][ 47]OBJ SavePackage: Finished generating thumbnails for package [/Game/BubblesFromTheDeep/MenuScreens(UI)/MainMenu]
+[2025.01.26-23.23.21:118][ 47]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BubblesFromTheDeep/MenuScreens(UI)/MainMenu_Auto6
+[2025.01.26-23.23.21:118][ 47]LogSavePackage: Moving '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Saved/MainMenu_Auto68A69F1414A5E732200424B9C05D8C658.tmp' to '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Saved/Autosaves/Game/BubblesFromTheDeep/MenuScreens(UI)/MainMenu_Auto6.uasset'
+[2025.01.26-23.23.21:123][ 47]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BubblesFromTheDeep/MenuScreens(UI)/CreditsMenu] ([2] browsable assets)...
+[2025.01.26-23.23.21:134][ 47]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/BubblesFromTheDeep/MenuScreens(UI)/CreditsMenu.CreditsMenu]
+[2025.01.26-23.23.21:134][ 47]OBJ SavePackage: Finished generating thumbnails for package [/Game/BubblesFromTheDeep/MenuScreens(UI)/CreditsMenu]
+[2025.01.26-23.23.21:139][ 47]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BubblesFromTheDeep/MenuScreens(UI)/CreditsMenu_Auto6
+[2025.01.26-23.23.21:139][ 47]LogSavePackage: Moving '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Saved/CreditsMenu_Auto67C1D669A42339025E0C072A21BA35EDC.tmp' to '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Saved/Autosaves/Game/BubblesFromTheDeep/MenuScreens(UI)/CreditsMenu_Auto6.uasset'
+[2025.01.26-23.23.21:143][ 47]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BubblesFromTheDeep/MenuScreens_UI_/SelectingUnit] ([1] browsable assets)...
+[2025.01.26-23.23.21:162][ 47]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/BubblesFromTheDeep/MenuScreens_UI_/SelectingUnit.SelectingUnit]
+[2025.01.26-23.23.21:162][ 47]OBJ SavePackage: Finished generating thumbnails for package [/Game/BubblesFromTheDeep/MenuScreens_UI_/SelectingUnit]
+[2025.01.26-23.23.21:164][ 47]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BubblesFromTheDeep/MenuScreens_UI_/SelectingUnit_Auto6
+[2025.01.26-23.23.21:164][ 47]LogSavePackage: Moving '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Saved/SelectingUnit_Auto6C21F3DAA4B93621B633F668D9286B7EE.tmp' to '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Saved/Autosaves/Game/BubblesFromTheDeep/MenuScreens_UI_/SelectingUnit_Auto6.uasset'
+[2025.01.26-23.23.21:167][ 47]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BubblesFromTheDeep/MenuScreens_UI_/TitleTheme] ([1] browsable assets)...
+[2025.01.26-23.23.21:188][ 47]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/BubblesFromTheDeep/MenuScreens_UI_/TitleTheme.TitleTheme]
+[2025.01.26-23.23.21:188][ 47]OBJ SavePackage: Finished generating thumbnails for package [/Game/BubblesFromTheDeep/MenuScreens_UI_/TitleTheme]
+[2025.01.26-23.23.21:200][ 47]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BubblesFromTheDeep/MenuScreens_UI_/TitleTheme_Auto6
+[2025.01.26-23.23.21:200][ 47]LogSavePackage: Moving '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Saved/TitleTheme_Auto63FF97A904073D684FAA0CBB5FF694E10.tmp' to '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Saved/Autosaves/Game/BubblesFromTheDeep/MenuScreens_UI_/TitleTheme_Auto6.uasset'
+[2025.01.26-23.23.21:203][ 47]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BubblesFromTheDeep/MenuScreens_UI_/CreditsMusic] ([1] browsable assets)...
+[2025.01.26-23.23.21:224][ 47]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/BubblesFromTheDeep/MenuScreens_UI_/CreditsMusic.CreditsMusic]
+[2025.01.26-23.23.21:224][ 47]OBJ SavePackage: Finished generating thumbnails for package [/Game/BubblesFromTheDeep/MenuScreens_UI_/CreditsMusic]
+[2025.01.26-23.23.21:229][ 47]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BubblesFromTheDeep/MenuScreens_UI_/CreditsMusic_Auto6
+[2025.01.26-23.23.21:229][ 47]LogSavePackage: Moving '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Saved/CreditsMusic_Auto6DDEDB3554DDEFD9DB486608F1755AA5F.tmp' to '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Saved/Autosaves/Game/BubblesFromTheDeep/MenuScreens_UI_/CreditsMusic_Auto6.uasset'
+[2025.01.26-23.23.21:232][ 47]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BubblesFromTheDeep/MenuScreens_UI_/M_CreditsMusic] ([1] browsable assets)...
+[2025.01.26-23.23.21:232][ 47]OBJ SavePackage: Finished generating thumbnails for package [/Game/BubblesFromTheDeep/MenuScreens_UI_/M_CreditsMusic]
+[2025.01.26-23.23.21:233][ 47]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BubblesFromTheDeep/MenuScreens_UI_/M_CreditsMusic_Auto6
+[2025.01.26-23.23.21:233][ 47]LogSavePackage: Moving '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Saved/M_CreditsMusic_Auto6F32E7DB8456EB47E1F9E10972BD503AD.tmp' to '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Saved/Autosaves/Game/BubblesFromTheDeep/MenuScreens_UI_/M_CreditsMusic_Auto6.uasset'
+[2025.01.26-23.23.21:237][ 47]LogFileHelpers: Auto-saving content packages took 0.150
+[2025.01.26-23.23.24:040][ 57]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (Realtek(R) Audio), InstanceID=1
+[2025.01.26-23.23.24:346][ 57]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=28304
+[2025.01.26-23.23.24:681][ 58]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{2efd6778-50c3-4484-bde0-31b001b92c1d}, Name=Headphones (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=123.93
+[2025.01.26-23.23.24:681][ 58]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.01.26-23.23.24:682][ 58]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.01.26-23.24.05:025][179]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11883.232422
+[2025.01.26-23.24.06:024][182]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.26-23.24.06:025][182]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11883.898438, Update Interval: 327.323822
+[2025.01.26-23.30.27:141][325]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12265.236328
+[2025.01.26-23.30.28:141][328]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.26-23.30.28:141][329]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12265.906250, Update Interval: 356.896271
+[2025.01.26-23.30.39:471][362]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.26-23.30.39:493][362]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.01.26-23.30.39:493][362]LogPlayLevel: Display: Creating online subsystem for client :Context_80
+[2025.01.26-23.30.39:495][362]LogOnline: OSS: Created online subsystem instance for: :Context_80
+[2025.01.26-23.30.39:501][363]LogPlayLevel: Creating play world package: /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-23.30.39:502][363]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001201s)
+[2025.01.26-23.30.39:502][363]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap.LVL_MainMenuMap to /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap (0.001248s)
+[2025.01.26-23.30.39:512][363]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.01.26-23.30.39:514][363]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-23.30.39:514][363]LogPlayLevel: PIE: World Init took: (0.001022s)
+[2025.01.26-23.30.39:554][363]LogAudio: Display: Creating Audio Device:                 Id: 57, Scope: Unique, Realtime: True
+[2025.01.26-23.30.39:554][363]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.26-23.30.39:554][363]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.26-23.30.39:554][363]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.26-23.30.39:554][363]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.26-23.30.39:554][363]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.26-23.30.39:554][363]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.26-23.30.39:554][363]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.26-23.30.39:554][363]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.26-23.30.39:554][363]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.26-23.30.39:554][363]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.26-23.30.39:554][363]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.26-23.30.39:556][363]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.26-23.30.39:574][363]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.01.26-23.30.39:574][363]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.26-23.30.39:574][363]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.26-23.30.39:574][363]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.26-23.30.39:574][363]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=57
+[2025.01.26-23.30.39:574][363]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=57
+[2025.01.26-23.30.39:576][363]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=57
+[2025.01.26-23.30.39:576][363]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=57
+[2025.01.26-23.30.39:576][363]LogInit: FAudioDevice initialized with ID 57.
+[2025.01.26-23.30.39:576][363]LogAudio: Display: Audio Device (ID: 57) registered with world 'LVL_MainMenuMap'.
+[2025.01.26-23.30.39:576][363]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 57
+[2025.01.26-23.30.39:578][363]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-23.30.39:578][363]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap up for play (max tick rate 0) at 2025.01.26-15.30.39
+[2025.01.26-23.30.39:579][363]LogWorld: Bringing up level for play took: 0.000309
+[2025.01.26-23.30.39:618][363]PIE: Server logged in
+[2025.01.26-23.30.39:619][363]PIE: Play in editor total start time 0.135 seconds.
+[2025.01.26-23.30.46:987][236]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/BubblesFromTheDeep/Levels/LVL_Credits"
+[2025.01.26-23.30.46:987][236]LogNet: Browse: /Game/BubblesFromTheDeep/Levels/LVL_Credits
+[2025.01.26-23.30.46:987][236]LogLoad: LoadMap: /Game/BubblesFromTheDeep/Levels/LVL_Credits
+[2025.01.26-23.30.46:987][236]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-23.30.46:988][236]LogWorld: UWorld::CleanupWorld for LVL_MainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-23.30.46:988][236]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-23.30.46:988][236]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-23.30.46:988][236]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-23.30.47:034][236]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.26-23.30.47:036][236]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.01.26-23.30.47:045][236]LogAudio: Display: Audio Device (ID: 57) registered with world 'LVL_Credits'.
+[2025.01.26-23.30.47:045][236]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-23.30.47:045][236]LogPlayLevel: PIE: World Init took: (0.000763s)
+[2025.01.26-23.30.47:045][236]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-23.30.47:046][236]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_Credits.LVL_Credits up for play (max tick rate 0) at 2025.01.26-15.30.47
+[2025.01.26-23.30.47:046][236]LogWorld: Bringing up level for play took: 0.000267
+[2025.01.26-23.30.47:046][236]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.01.26-23.30.47:047][236]LogLoad: Took 0.059251 seconds to LoadMap(/Game/BubblesFromTheDeep/Levels/LVL_Credits)
+[2025.01.26-23.30.47:047][236]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/BubblesFromTheDeep/Levels/LVL_Credits
+[2025.01.26-23.30.50:775][683]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap"
+[2025.01.26-23.30.50:775][683]LogNet: Browse: /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap
+[2025.01.26-23.30.50:775][683]LogLoad: LoadMap: /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap
+[2025.01.26-23.30.50:775][683]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_Credits
+[2025.01.26-23.30.50:775][683]LogWorld: UWorld::CleanupWorld for LVL_Credits, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-23.30.50:775][683]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-23.30.50:775][683]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-23.30.50:775][683]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-23.30.50:834][683]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.26-23.30.50:835][683]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.01.26-23.30.50:837][683]LogPlayLevel: Creating play world package: /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-23.30.50:838][683]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000686s)
+[2025.01.26-23.30.50:838][683]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BubblesFromTheDeep/Levels/LVL_MainMenuMap.LVL_MainMenuMap to /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap (0.000723s)
+[2025.01.26-23.30.50:838][683]LogAudio: Display: Audio Device (ID: 57) registered with world 'LVL_MainMenuMap'.
+[2025.01.26-23.30.50:838][683]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.01.26-23.30.50:838][683]LogPlayLevel: PIE: World Init took: (0.000701s)
+[2025.01.26-23.30.50:838][683]LogLoad: Game class is 'GameModeBase'
+[2025.01.26-23.30.50:838][683]LogWorld: Bringing World /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap.LVL_MainMenuMap up for play (max tick rate 0) at 2025.01.26-15.30.50
+[2025.01.26-23.30.50:839][683]LogWorld: Bringing up level for play took: 0.000199
+[2025.01.26-23.30.50:839][683]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.01.26-23.30.50:840][683]LogLoad: Took 0.064486 seconds to LoadMap(/Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap)
+[2025.01.26-23.30.50:840][683]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-23.30.54:499][116]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-23.30.54:499][116]LogWorld: BeginTearingDown for /Game/BubblesFromTheDeep/Levels/UEDPIE_0_LVL_MainMenuMap
+[2025.01.26-23.30.54:499][116]LogWorld: UWorld::CleanupWorld for LVL_MainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-23.30.54:499][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-23.30.54:499][116]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.01.26-23.30.54:499][116]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.01.26-23.30.54:501][116]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.26-23.30.54:502][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-23.30.54:510][116]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-23.30.54:510][116]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 57
+[2025.01.26-23.30.54:510][116]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=57
+[2025.01.26-23.30.54:512][116]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=57
+[2025.01.26-23.30.54:515][116]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.01.26-23.30.54:579][117]LogPlayLevel: Display: Destroying online subsystem :Context_80
+[2025.01.26-23.34.10:299][212]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.26-23.34.10:329][212]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BubblesFromTheDeep/MenuScreens(UI)/MainMenu] ([2] browsable assets)...
+[2025.01.26-23.34.10:329][212]OBJ SavePackage: Finished generating thumbnails for package [/Game/BubblesFromTheDeep/MenuScreens(UI)/MainMenu]
+[2025.01.26-23.34.10:336][212]LogSavePackage: Moving output files for package: /Game/BubblesFromTheDeep/MenuScreens(UI)/MainMenu
+[2025.01.26-23.34.10:339][212]LogSavePackage: Moving '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Saved/MainMenu817988AA4A463582234CF5A741DBAB91.tmp' to '../../../../../../Users/troop/Documents/GitHub/bubbles-from-the-deep/bubbles-from-the-deep/BubblesFromTheDeep/Content/BubblesFromTheDeep/MenuScreens(UI)/MainMenu.uasset'
+[2025.01.26-23.34.10:355][212]LogFileHelpers: InternalPromptForCheckoutAndSave took 55.101 ms (total: 1.61 sec)
+[2025.01.26-23.34.10:377][212]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.26-23.34.10:377][212]LogContentValidation: Enabled validators:
+[2025.01.26-23.34.10:377][212]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.26-23.34.10:377][212]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.26-23.34.10:377][212]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.26-23.34.10:377][212]LogContentValidation: Display: Validating asset /Game/BubblesFromTheDeep/MenuScreens(UI)/MainMenu.MainMenu
+[2025.01.26-23.34.10:378][212]AssetCheck: /Game/BubblesFromTheDeep/MenuScreens(UI)/MainMenu Validating asset
