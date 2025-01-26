@@ -21,6 +21,7 @@ class ADrossMonster;
 UENUM(Blueprintable, BlueprintType)
 enum EMonsterBehaviorPhase
 {
+	Uninitialized = -1,
 	Rising = 0,
 	Advancing = 1,
 	Attacking = 2,
@@ -67,7 +68,7 @@ protected:
 	// -----------------------------------------------------------------------------
 
 	UPROPERTY(BlueprintReadWrite)
-	TEnumAsByte<EMonsterBehaviorPhase> BehaviorPhase;
+	TEnumAsByte<EMonsterBehaviorPhase> BehaviorPhase = Uninitialized;
 	
 	UPROPERTY(BlueprintReadWrite)
 	AGameBoardSlot* DestinationSlot;
@@ -91,4 +92,6 @@ protected:
 	UFUNCTION(BlueprintNativeEvent)
 	void OnCurrentTargetDies();
 	void OnCurrentTargetDies_Implementation();
+
+	virtual void OnPossess(APawn* InPawn) override;
 };

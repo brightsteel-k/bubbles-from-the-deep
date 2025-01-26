@@ -2,6 +2,8 @@
 
 #include "GameBoard.h"
 #include "GameBoardSlot.h"
+#include "Kismet/GameplayStatics.h"
+#include "Kismet/KismetMathLibrary.h"
 
 // -----------------------------------------------------------------------------
 // Class Implementation
@@ -55,6 +57,30 @@ AGameBoardSlot* AGameBoard::GetTargetSlot()
 void AGameBoard::SetTargetSlot(AGameBoardSlot* Slot)
 {
 	TargetSlot = Slot;
+}
+
+// -----------------------------------------------------------------------------
+
+ADrossMonster* AGameBoard::SpawnDrossMonster(TSubclassOf<ADrossMonster> MonsterClass, float SpawnpointAngle)
+{
+	// Prepare spawn parameters
+	FActorSpawnParameters SpawnParameters;
+	SpawnParameters.bDeferConstruction = true;
+	SpawnParameters.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+
+	// Calculate Location
+	float RelativeHeight = UKismetMathLibrary::RandomFloatInRange(DrossMonsterSpawnRelativeHeight.Min,
+		DrossMonsterSpawnRelativeHeight.Max);
+	FVector SpawnOffset = FVector(DrossMonsterSpawnRadius, 0, RelativeHeight);
+	FTransform SpawnTransform = FTransform(GetActorLocation()
+		+ SpawnOffset.RotateAngleAxis(SpawnpointAngle, FVector(0, 0, 1)));
+
+	// Spawn turret actor
+	AActor* NewMonster = GetWorld()->SpawnActor(MonsterClass, &SpawnTransform, SpawnParameters);
+	ensure(NewMonster != nullptr);
+	UGameplayStatics::FinishSpawningActor(NewMonster, SpawnTransform);
+
+	return Cast<ADrossMonster>(NewMonster);
 }
 
 // -----------------------------------------------------------------------------

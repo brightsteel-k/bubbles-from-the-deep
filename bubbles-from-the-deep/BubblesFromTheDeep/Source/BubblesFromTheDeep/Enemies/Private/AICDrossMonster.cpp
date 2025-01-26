@@ -26,7 +26,6 @@ AGameBoardSlot* AAICDrossMonster::GetTargetSlot()
 
 void AAICDrossMonster::Start_Implementation()
 {
-	DrossMonster = Cast<ADrossMonster>(GetPawn());
 	BehaviorPhase = Rising;
 }
 
@@ -70,6 +69,15 @@ void AAICDrossMonster::SetCurrentTarget(ACoralTurret* Turret)
 void AAICDrossMonster::OnCurrentTargetDies_Implementation()
 {
 	CurrentTarget = nullptr;
+}
+
+// -----------------------------------------------------------------------------
+
+void AAICDrossMonster::OnPossess(APawn* InPawn)
+{
+	Super::OnPossess(InPawn);
+	DrossMonster = Cast<ADrossMonster>(InPawn);
+	Start();
 }
 
 // -----------------------------------------------------------------------------

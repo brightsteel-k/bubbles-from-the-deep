@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "DrossMonster.h"
+#include "DrossSiege.h"
 #include "Subsystems/WorldSubsystem.h"
 #include "DrossSiegeSubsystem.generated.h"
 
@@ -26,6 +27,21 @@ public:
 
 	UPROPERTY()
 	TArray<ADrossMonster*> ActiveMonsters;
+
+	UPROPERTY()
+	TArray<FDrossMonsterWave> SiegeWaves;
+
+	UPROPERTY()
+	bool bIsSiegeActive = false;
+
+	UPROPERTY()
+	float NextWaveTime;
+
+	UPROPERTY()
+	int CurrentSiegeIndex = 0;
+
+	UPROPERTY(BlueprintReadOnly)
+	bool bIsSiegeEnding = false;
 	
 	// -----------------------------------------------------------------------------
 	// Public Methods
@@ -36,7 +52,13 @@ public:
 	virtual TStatId GetStatId() const override;
 
 	UFUNCTION(BlueprintCallable)
+	void LoadSiege(UDrossSiege* DrossSiegeIn);
+	
+	UFUNCTION(BlueprintCallable)
 	void StartSiege();
+
+	UFUNCTION()
+	void StartNextSiegeWave();
 
 	UFUNCTION(BlueprintCallable)
 	bool IsMonsterWithinRange(FVector WorldLocation, float Range, ADrossMonster*& ClosestMonster);
@@ -52,4 +74,10 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void OnDrossMonsterKilled(ADrossMonster* DrossMonster);
+
+	UFUNCTION()
+	void WinDrossSiege();
+
+	UFUNCTION(BlueprintCallable)
+	void LoseDrossSiege();
 };

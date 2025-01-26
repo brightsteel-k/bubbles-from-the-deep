@@ -2,7 +2,6 @@
 
 #include "GameBoardSlot.h"
 #include "CoralTurret.h"
-#include "DetailLayoutBuilder.h"
 #include "GameBoard.h"
 
 // -----------------------------------------------------------------------------

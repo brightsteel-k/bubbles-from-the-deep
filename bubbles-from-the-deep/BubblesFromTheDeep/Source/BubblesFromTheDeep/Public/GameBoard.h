@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "BubblesFromTheDeep/Enemies/Public/DrossSiege.h"
 #include "GameFramework/Actor.h"
 #include "GameBoard.generated.h"
 
@@ -49,6 +50,13 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void SetTargetSlot(AGameBoardSlot* Slot);
 
+	UFUNCTION(BlueprintCallable)
+	ADrossMonster* SpawnDrossMonster(TSubclassOf<ADrossMonster> MonsterClass, float SpawnpointAngle);
+
+	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+	void SpawnDrossMonsterWave(TSubclassOf<ADrossMonster> MonsterClass, int WaveSize,
+		FFloatInterval SpawnpointAngleRange);
+
 	UFUNCTION(BlueprintCallable, BlueprintPure)
 	static AGameBoard* GetGameBoard();
 
@@ -59,6 +67,19 @@ public:
 	static void ClearCurrentGameBoard();
 
 protected:
+	// -----------------------------------------------------------------------------
+	// Protected Member Variables
+	// -----------------------------------------------------------------------------
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	UDrossSiege* DrossSiege;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FFloatInterval DrossMonsterSpawnRelativeHeight = FFloatInterval(10, 30);
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float DrossMonsterSpawnRadius = 250;
+	
 	// -----------------------------------------------------------------------------
 	// Protected Methods
 	// -----------------------------------------------------------------------------
