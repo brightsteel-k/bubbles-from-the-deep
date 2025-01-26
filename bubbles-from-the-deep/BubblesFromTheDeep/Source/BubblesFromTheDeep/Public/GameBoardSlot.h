@@ -36,13 +36,16 @@ public:
 	// -----------------------------------------------------------------------------
 
 	UFUNCTION(BlueprintCallable)
-	void SetSocketedTurret(ACoralTurret* NewTurret);
+	void PlaceTurret(TSubclassOf<ACoralTurret> TurretClass);
 
 	UFUNCTION(BlueprintCallable, BlueprintPure)
-	ACoralTurret* GetSocketedTurret();
+	ACoralTurret* GetTurret();
 
 	UFUNCTION(BlueprintCallable, BlueprintPure)
-	bool HasSocketedTurret();
+	bool HasTurret();
+
+	UFUNCTION()
+	void OnTurretCleared();
 
 	UFUNCTION(BlueprintNativeEvent)
 	void Initialize(AGameBoard* ParentBoard);

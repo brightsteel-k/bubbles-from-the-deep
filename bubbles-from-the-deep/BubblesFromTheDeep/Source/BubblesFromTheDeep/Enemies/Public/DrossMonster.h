@@ -3,9 +3,14 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameBoardSlot.h"
 #include "GameFramework/Character.h"
 #include "DrossMonster.generated.h"
+
+// -----------------------------------------------------------------------------
+// Delegate Definitions
+// -----------------------------------------------------------------------------
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnDrossMonsterKilled);
 
 // -----------------------------------------------------------------------------
 // Forward Declarations
@@ -26,15 +31,22 @@ public:
 	// -----------------------------------------------------------------------------
 	// Public Member Variables
 	// -----------------------------------------------------------------------------
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, BlueprintAssignable, BlueprintAssignable)
+	FOnDrossMonsterKilled OnKilled;
+
+	UPROPERTY(BlueprintReadOnly)
+	bool bIsAlive = true;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	float MaxHealth = 10;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float Health;
 	
 	// -----------------------------------------------------------------------------
 	// Public Methods
 	// -----------------------------------------------------------------------------
-
-	// TODO: remove?
-	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-	void InitializeEnemy();
-	void InitializeEnemy_Implementation();
 
 	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
 	void EnterAdvancingMode();
@@ -44,6 +56,14 @@ public:
 
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+	void Die();
+	void Die_Implementation();
+
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+	void MonsterTakeDamage(float Damage);
+	void MonsterTakeDamage_Implementation(float Damage);
 	
 protected:
 	// -----------------------------------------------------------------------------
@@ -53,6 +73,7 @@ protected:
 	UPROPERTY(BlueprintReadOnly)
 	AAICDrossMonster* DrossMonsterController;
 
+	
 	// -----------------------------------------------------------------------------
 	// Protected Methods
 	// -----------------------------------------------------------------------------

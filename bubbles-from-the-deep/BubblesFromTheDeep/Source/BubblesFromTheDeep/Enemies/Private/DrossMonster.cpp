@@ -4,15 +4,10 @@
 
 #include "GameBoard.h"
 #include "BubblesFromTheDeep/Enemies/Public/AICDrossMonster.h"
+#include "BubblesFromTheDeep/Enemies/Public/DrossSiegeSubsystem.h"
 
 // -----------------------------------------------------------------------------
 // Class Implementation
-// -----------------------------------------------------------------------------
-
-void ADrossMonster::InitializeEnemy_Implementation()
-{
-}
-
 // -----------------------------------------------------------------------------
 
 // Sets default values
@@ -29,6 +24,8 @@ void ADrossMonster::BeginPlay()
 {
 	Super::BeginPlay();
 	DrossMonsterController = Cast<AAICDrossMonster>(GetController());
+	GetWorld()->GetSubsystem<UDrossSiegeSubsystem>()->OnDrossMonsterSpawned(this);
+	Health = MaxHealth;
 }
 
 // -----------------------------------------------------------------------------
@@ -41,3 +38,31 @@ void ADrossMonster::Tick(float DeltaTime)
 
 // -----------------------------------------------------------------------------
 
+void ADrossMonster::Die_Implementation()
+{
+	if (!bIsAlive) {
+		return;
+	}
+	
+	bIsAlive = false;
+	GetWorld()->GetSubsystem<UDrossSiegeSubsystem>()->OnDrossMonsterKilled(this);
+	OnKilled.Broadcast();
+}
+
+// -----------------------------------------------------------------------------
+
+void ADrossMonster::MonsterTakeDamage_Implementation(float Damage)
+{
+	if (Damage <= 0) {
+		return;
+	}
+	
+	if (Health <= Damage) {
+		Health = 0;
+		Die();
+	} else {
+		Health -= Damage;
+	}
+}
+
+// -----------------------------------------------------------------------------

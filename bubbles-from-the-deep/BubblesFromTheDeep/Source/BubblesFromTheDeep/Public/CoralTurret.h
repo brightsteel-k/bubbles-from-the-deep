@@ -25,6 +25,15 @@ public:
 	// Public Member Variables
 	// -----------------------------------------------------------------------------
 
+	UPROPERTY(BlueprintReadOnly)
+	bool bIsAlive = true;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	float MaxHealth;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float Health;
+	
 	// -----------------------------------------------------------------------------
 	// Public Methods
 	// -----------------------------------------------------------------------------
@@ -35,6 +44,14 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	AGameBoardSlot* GetOwningGameBoardSlot();
+
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+	void Die();
+	void Die_Implementation();
+
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+	void TurretTakeDamage(float Damage);
+	void TurretTakeDamage_Implementation(float Damage);
 	
 	// Sets default values for this actor's properties
 	ACoralTurret();

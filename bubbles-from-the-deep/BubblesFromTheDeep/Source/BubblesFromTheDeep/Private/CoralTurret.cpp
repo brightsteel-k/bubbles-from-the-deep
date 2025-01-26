@@ -21,6 +21,34 @@ AGameBoardSlot* ACoralTurret::GetOwningGameBoardSlot()
 
 // -----------------------------------------------------------------------------
 
+void ACoralTurret::Die_Implementation()
+{
+	if (!bIsAlive) {
+		return;
+	}
+
+	bIsAlive = false;
+	OwningGameBoardSlot->OnTurretCleared();
+}
+
+// -----------------------------------------------------------------------------
+
+void ACoralTurret::TurretTakeDamage_Implementation(float Damage)
+{
+	if (Damage <= 0) {
+		return;
+	}
+	
+	if (Health <= Damage) {
+		Health = 0;
+		Die();
+	} else {
+		Health -= Damage;
+	}
+}
+
+// -----------------------------------------------------------------------------
+
 // Sets default values
 ACoralTurret::ACoralTurret()
 {
@@ -34,7 +62,7 @@ ACoralTurret::ACoralTurret()
 void ACoralTurret::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	Health = MaxHealth;
 }
 
 // -----------------------------------------------------------------------------

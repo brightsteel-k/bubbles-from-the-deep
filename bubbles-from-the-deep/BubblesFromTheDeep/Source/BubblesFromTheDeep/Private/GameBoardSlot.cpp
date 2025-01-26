@@ -2,30 +2,49 @@
 
 #include "GameBoardSlot.h"
 #include "CoralTurret.h"
+#include "DetailLayoutBuilder.h"
 #include "GameBoard.h"
 
 // -----------------------------------------------------------------------------
 // Class Implementation
 // -----------------------------------------------------------------------------
 
-void AGameBoardSlot::SetSocketedTurret(ACoralTurret* NewTurret)
+void AGameBoardSlot::PlaceTurret(TSubclassOf<ACoralTurret> TurretClass)
 {
-	SocketedTurret = NewTurret;
-	NewTurret->OnTurretPlaced(this);
+	// Prepare for placement
+	FActorSpawnParameters SpawnParameters;
+	SpawnParameters.Owner = this;
+	SpawnParameters.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+	FTransform SpawnTransform = GetActorTransform();
+
+	// Spawn turret actor
+	AActor* NewTurret = GetWorld()->SpawnActor(TurretClass, &SpawnTransform, SpawnParameters);
+	ensure(NewTurret != nullptr);
+
+	// Socket turret
+	SocketedTurret = Cast<ACoralTurret>(NewTurret);
+	SocketedTurret->OnTurretPlaced(this);
 }
 
 // -----------------------------------------------------------------------------
 
-ACoralTurret* AGameBoardSlot::GetSocketedTurret()
+ACoralTurret* AGameBoardSlot::GetTurret()
 {
 	return SocketedTurret;
 }
 
 // -----------------------------------------------------------------------------
 
-bool AGameBoardSlot::HasSocketedTurret()
+bool AGameBoardSlot::HasTurret()
 {
 	return SocketedTurret != nullptr;
+}
+
+// -----------------------------------------------------------------------------
+
+void AGameBoardSlot::OnTurretCleared()
+{
+	SocketedTurret = nullptr;
 }
 
 // -----------------------------------------------------------------------------
