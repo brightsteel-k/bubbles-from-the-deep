@@ -7,6 +7,12 @@
 #include "CoralTurret.generated.h"
 
 // -----------------------------------------------------------------------------
+// Delegate Definitions
+// -----------------------------------------------------------------------------
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnCoralTurretDestroyed);
+
+// -----------------------------------------------------------------------------
 // Forward Declaration
 // -----------------------------------------------------------------------------
 
@@ -25,6 +31,9 @@ public:
 	// Public Member Variables
 	// -----------------------------------------------------------------------------
 
+	UPROPERTY(BlueprintAssignable, BlueprintReadWrite, BlueprintAssignable)
+	FOnCoralTurretDestroyed OnTurretDestroyed;
+	
 	UPROPERTY(BlueprintReadOnly)
 	bool bIsAlive = true;
 	

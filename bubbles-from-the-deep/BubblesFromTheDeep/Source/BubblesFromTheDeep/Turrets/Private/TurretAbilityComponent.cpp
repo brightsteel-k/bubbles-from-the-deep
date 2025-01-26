@@ -53,7 +53,7 @@ void UTurretAbilityComponent::TickComponent(float DeltaTime, ELevelTick TickType
 			bOnCooldown = false;
 		}
 	} else {
-		if (CanTriggerAbility()) {
+		if (CanTriggerAbility() && CoralTurret->bIsAlive) {
 			TriggerAbility();
 		}
 	}

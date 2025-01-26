@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "CoralTurret.h"
 #include "GameFramework/Character.h"
 #include "DrossMonster.generated.h"
 
@@ -32,7 +33,7 @@ public:
 	// Public Member Variables
 	// -----------------------------------------------------------------------------
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, BlueprintAssignable, BlueprintAssignable)
+	UPROPERTY(BlueprintReadWrite, BlueprintAssignable, BlueprintAssignable)
 	FOnDrossMonsterKilled OnKilled;
 
 	UPROPERTY(BlueprintReadOnly)
@@ -43,6 +44,12 @@ public:
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float Health;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float AttackDamage;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float AttackCooldown;
 	
 	// -----------------------------------------------------------------------------
 	// Public Methods
@@ -50,6 +57,12 @@ public:
 
 	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
 	void EnterAdvancingMode();
+
+	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+	void EnterAttackingMode();
+	
+	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+	void AttackTurret(ACoralTurret* TargetTurret);
 	
 	// Sets default values for this character's properties
 	ADrossMonster();
@@ -69,10 +82,6 @@ protected:
 	// -----------------------------------------------------------------------------
 	// Protected Member Variables
 	// -----------------------------------------------------------------------------
-
-	UPROPERTY(BlueprintReadOnly)
-	AAICDrossMonster* DrossMonsterController;
-
 	
 	// -----------------------------------------------------------------------------
 	// Protected Methods

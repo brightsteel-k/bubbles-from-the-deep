@@ -28,6 +28,7 @@ void ACoralTurret::Die_Implementation()
 	}
 
 	bIsAlive = false;
+	OnTurretDestroyed.Broadcast();
 	OwningGameBoardSlot->OnTurretCleared();
 }
 

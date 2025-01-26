@@ -23,7 +23,6 @@ ADrossMonster::ADrossMonster()
 void ADrossMonster::BeginPlay()
 {
 	Super::BeginPlay();
-	DrossMonsterController = Cast<AAICDrossMonster>(GetController());
 	GetWorld()->GetSubsystem<UDrossSiegeSubsystem>()->OnDrossMonsterSpawned(this);
 	Health = MaxHealth;
 }
@@ -64,5 +63,3 @@ void ADrossMonster::MonsterTakeDamage_Implementation(float Damage)
 		Health -= Damage;
 	}
 }
-
-// -----------------------------------------------------------------------------

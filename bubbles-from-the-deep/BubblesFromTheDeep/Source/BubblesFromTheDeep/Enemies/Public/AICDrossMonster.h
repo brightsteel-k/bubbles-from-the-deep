@@ -70,7 +70,10 @@ protected:
 	TEnumAsByte<EMonsterBehaviorPhase> BehaviorPhase;
 	
 	UPROPERTY(BlueprintReadWrite)
-	AGameBoardSlot* TargetSlot;
+	AGameBoardSlot* DestinationSlot;
+
+	UPROPERTY(BlueprintReadWrite)
+	ACoralTurret* CurrentTarget;
 
 	UPROPERTY(BlueprintReadOnly)
 	ADrossMonster* DrossMonster;
@@ -81,4 +84,11 @@ protected:
 
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+	
+	UFUNCTION(BlueprintCallable)
+	void SetCurrentTarget(ACoralTurret* Turret);
+	
+	UFUNCTION(BlueprintNativeEvent)
+	void OnCurrentTargetDies();
+	void OnCurrentTargetDies_Implementation();
 };

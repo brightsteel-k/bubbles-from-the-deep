@@ -12,14 +12,14 @@
 
 void AAICDrossMonster::SetTargetSlot(AGameBoardSlot* TargetSlotIn)
 {
-	TargetSlot = TargetSlotIn;
+	DestinationSlot = TargetSlotIn;
 }
 
 // -----------------------------------------------------------------------------
 
 AGameBoardSlot* AAICDrossMonster::GetTargetSlot()
 {
-	return TargetSlot;
+	return DestinationSlot;
 }
 
 // -----------------------------------------------------------------------------
@@ -57,3 +57,19 @@ void AAICDrossMonster::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 }
 
+// -----------------------------------------------------------------------------
+
+void AAICDrossMonster::SetCurrentTarget(ACoralTurret* Turret)
+{
+	CurrentTarget = Turret;
+	CurrentTarget->OnTurretDestroyed.AddDynamic(this, &AAICDrossMonster::OnCurrentTargetDies);
+}
+
+// -----------------------------------------------------------------------------
+
+void AAICDrossMonster::OnCurrentTargetDies_Implementation()
+{
+	CurrentTarget = nullptr;
+}
+
+// -----------------------------------------------------------------------------
