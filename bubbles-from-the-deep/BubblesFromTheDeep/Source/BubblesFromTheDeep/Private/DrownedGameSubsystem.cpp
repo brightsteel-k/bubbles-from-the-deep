@@ -28,3 +28,10 @@ void UDrownedGameSubsystem::SpendPopTabs(int Amount)
 }
 
 // -----------------------------------------------------------------------------
+
+void UDrownedGameSubsystem::EndRoundLose()
+{
+	
+}
+
+// -----------------------------------------------------------------------------

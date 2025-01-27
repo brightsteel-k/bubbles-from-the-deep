@@ -3,6 +3,7 @@
 #include "CoralCardSubsystem.h"
 
 #include "DrownedGameSubsystem.h"
+#include "BubblesFromTheDeep/Enemies/Public/DrossSiegeSubsystem.h"
 #include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetMathLibrary.h"
 
@@ -14,25 +15,50 @@ void UCoralCardSubsystem::LoadDeck(UCoralCardDeck* Deck)
 {
 	Deck->GetDeck(CurrentDeck);
 	DeckSizeChangeEvent.Broadcast(CurrentDeck.Num());
+
+	// Starter hand
+	CurrentHand.Add(HeartCard);
+	DrawCardEvent.Broadcast(HeartCard);
+	DeckSizeChangeEvent.Broadcast(CurrentDeck.Num());
+	
+	for (int i = 0; i < StartingHandSize - 1; i++) {
+		int DrawIndex = UKismetMathLibrary::RandomInteger(CurrentDeck.Num() - 1);
+		UCoralCard* DrawnCard = CurrentDeck[DrawIndex];
+		// CurrentDeck.RemoveAt(DrawIndex);
+		CurrentHand.Add(DrawnCard);
+		DrawCardEvent.Broadcast(DrawnCard);
+		DeckSizeChangeEvent.Broadcast(CurrentDeck.Num());
+	}
+	
 }
 
 // -----------------------------------------------------------------------------
 
 void UCoralCardSubsystem::StartRound()
 {
-	
+	// Start card pickup loop
+	FTimerHandle TimerHandle;
+	float Delay = UKismetMathLibrary::RandomFloatInRange(DrawDelayRangeSeconds.Min, DrawDelayRangeSeconds.Max);
+	GetWorld()->GetTimerManager().SetTimer(TimerHandle, this, &UCoralCardSubsystem::DrawCard, Delay);
 }
 
 // -----------------------------------------------------------------------------
 
 void UCoralCardSubsystem::DrawCard()
 {
-	int DrawIndex = UKismetMathLibrary::RandomInteger(CurrentDeck.Num() - 1);
-	UCoralCard* DrawnCard = CurrentDeck[DrawIndex];
-	CurrentDeck.RemoveAt(DrawIndex);
-	CurrentHand.Add(DrawnCard);
-	DrawCardEvent.Broadcast(DrawnCard);
-	DeckSizeChangeEvent.Broadcast(CurrentDeck.Num());
+	if (CurrentHand.Num() > MaxHandSize) {
+		int DrawIndex = UKismetMathLibrary::RandomInteger(CurrentDeck.Num() - 1);
+		UCoralCard* DrawnCard = CurrentDeck[DrawIndex];
+		// CurrentDeck.RemoveAt(DrawIndex);
+		CurrentHand.Add(DrawnCard);
+		DrawCardEvent.Broadcast(DrawnCard);
+		DeckSizeChangeEvent.Broadcast(CurrentDeck.Num());
+	} else {
+		FTimerHandle TimerHandle;
+		float Delay = UKismetMathLibrary::RandomFloatInRange(DrawDelayRangeSeconds.Min, DrawDelayRangeSeconds.Max);
+		GetWorld()->GetTimerManager().SetTimer(TimerHandle, this, &UCoralCardSubsystem::DrawCard, Delay);
+	}
+
 }
 
 // -----------------------------------------------------------------------------

@@ -35,10 +35,13 @@ public:
 	// -----------------------------------------------------------------------------
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int StartingHandSize = 4;
+	int StartingHandSize = 3;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int MaxHandSize = 6;
+	int MaxHandSize = 5;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FFloatInterval DrawDelayRangeSeconds = FFloatInterval(6.0f, 12.0f);
 
 	UPROPERTY(BlueprintAssignable, BlueprintReadWrite, BlueprintCallable)
 	FCoralCardSubsystemDrawEvent DrawCardEvent;
@@ -48,6 +51,12 @@ public:
 
 	UPROPERTY(BlueprintAssignable, BlueprintReadWrite, BlueprintCallable)
 	FCoralCardPlayedEvent CardPlayedEvent;
+
+	// To be initialized by an actor
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UCoralCard* HeartCard;
+	
+	float LastDrawTime;
 	
 	// -----------------------------------------------------------------------------
 	// Public Methods

@@ -47,4 +47,7 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void SpendPopTabs(int Amount);
+
+	UFUNCTION(BlueprintCallable)
+	void EndRoundLose();
 };
