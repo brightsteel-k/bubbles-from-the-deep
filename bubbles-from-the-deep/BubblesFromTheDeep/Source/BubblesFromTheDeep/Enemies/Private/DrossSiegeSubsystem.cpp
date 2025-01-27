@@ -103,6 +103,7 @@ void UDrossSiegeSubsystem::OnDrossMonsterKilled(ADrossMonster* DrossMonster)
 
 void UDrossSiegeSubsystem::WinDrossSiege()
 {
+	UGameplayStatics::OpenLevel(this, TEXT("LVL_WinScreen"), TRAVEL_Absolute);
 	GEngine->AddOnScreenDebugMessage(-1, 10, FColor::Emerald, FString(TEXT("SIEGE WON!")));
 }
 
@@ -110,7 +111,9 @@ void UDrossSiegeSubsystem::WinDrossSiege()
 
 void UDrossSiegeSubsystem::LoseDrossSiege()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 10, FColor::Red, FString(TEXT("SIEGE LOST.")));
+	UGameplayStatics::OpenLevel(this, TEXT("LVL_GameOver"), TRAVEL_Absolute);
+	GEngine->AddOnScreenDebugMessage(-1, 10, FColor::Red, FString(TEXT("SIEGE LOST")));
+
 }
 
 // -----------------------------------------------------------------------------

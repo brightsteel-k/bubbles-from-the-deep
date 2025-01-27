@@ -46,19 +46,18 @@ void UCoralCardSubsystem::StartRound()
 
 void UCoralCardSubsystem::DrawCard()
 {
-	if (CurrentHand.Num() > MaxHandSize) {
+	if (CurrentHand.Num() < MaxHandSize) {
 		int DrawIndex = UKismetMathLibrary::RandomInteger(CurrentDeck.Num() - 1);
 		UCoralCard* DrawnCard = CurrentDeck[DrawIndex];
 		// CurrentDeck.RemoveAt(DrawIndex);
 		CurrentHand.Add(DrawnCard);
 		DrawCardEvent.Broadcast(DrawnCard);
 		DeckSizeChangeEvent.Broadcast(CurrentDeck.Num());
-	} else {
-		FTimerHandle TimerHandle;
-		float Delay = UKismetMathLibrary::RandomFloatInRange(DrawDelayRangeSeconds.Min, DrawDelayRangeSeconds.Max);
-		GetWorld()->GetTimerManager().SetTimer(TimerHandle, this, &UCoralCardSubsystem::DrawCard, Delay);
 	}
-
+	
+	FTimerHandle TimerHandle;
+	float Delay = UKismetMathLibrary::RandomFloatInRange(DrawDelayRangeSeconds.Min, DrawDelayRangeSeconds.Max);
+	GetWorld()->GetTimerManager().SetTimer(TimerHandle, this, &UCoralCardSubsystem::DrawCard, Delay);
 }
 
 // -----------------------------------------------------------------------------
@@ -78,7 +77,7 @@ UCoralCard* UCoralCardSubsystem::PlaySelectedCard()
 {
 	UGameplayStatics::GetGameInstance(this)->
 		GetSubsystem<UDrownedGameSubsystem>()->SpendPopTabs(SelectedCard->Cost);
-	CurrentHand.Remove(SelectedCard);
+	CurrentHand.RemoveSingle(SelectedCard);
 	
 	UCoralCard* PlayedCard = SelectedCard;
 	ClearSelectedCard();

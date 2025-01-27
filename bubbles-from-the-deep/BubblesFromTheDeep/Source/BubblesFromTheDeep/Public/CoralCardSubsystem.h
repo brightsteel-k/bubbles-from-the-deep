@@ -35,13 +35,13 @@ public:
 	// -----------------------------------------------------------------------------
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int StartingHandSize = 3;
+	int StartingHandSize = 2;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int MaxHandSize = 5;
+	int MaxHandSize = 3;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	FFloatInterval DrawDelayRangeSeconds = FFloatInterval(6.0f, 12.0f);
+	FFloatInterval DrawDelayRangeSeconds = FFloatInterval(1.5f, 3.0f);
 
 	UPROPERTY(BlueprintAssignable, BlueprintReadWrite, BlueprintCallable)
 	FCoralCardSubsystemDrawEvent DrawCardEvent;
